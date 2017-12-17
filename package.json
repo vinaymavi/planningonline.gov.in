@@ -2,10 +2,16 @@
   "name": "planningonline.gov.in",
   "version": "1.0.0",
   "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
   "repository": "https://github.com/vinaymavi/planningonline.gov.in.git",
   "author": "VinayMavi <vinaymavi@gmail.com>",
   "license": "MIT",
   "dependencies": {
     "puppeteer": "^0.13.0"
+  },
+  "devDependencies": {
+    "jest-cli": "^21.2.1"
   }
 }
