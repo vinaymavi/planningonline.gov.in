@@ -1,4 +1,4 @@
-const { Session } = require('./Session');
+const { Session } = require('../src/Session');
 
 test("Session created", () => {
     const session = new Session({});

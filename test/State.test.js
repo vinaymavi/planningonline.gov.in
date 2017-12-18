@@ -1,4 +1,4 @@
-const { State } = require("./State");
+const { State } = require("../src/State");
 test("Test update jsonDocument", () => {
     const jsonDocumentBefore = {
         '2015-2016': { value: '2015-2016', states: {} },
