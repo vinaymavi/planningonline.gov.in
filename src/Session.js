@@ -6,27 +6,29 @@
  * }
  */
 const {Util} = require("./Util");
-class Session {
-    constructor(json) {
-        this.json = json;
+const {Base} = require("./Base");
+class Session extends Base{
+    constructor(json,page) {
+        super(json,page);        
         this.SELECTOR = 'select[id="planYearId"]';
     }
 
-    setSession(sessionArr) {
-        if (sessionArr instanceof Array) {
-            sessionArr.forEach((value, index) => {
-                this.json[value] = {};
+    updateJsonDocument(financialYears) {
+        if (financialYears instanceof Array) {
+            financialYears.forEach((year, index) => {
+                this.json[year.text] = {'value':year.value,"states":{}};                
             });
         } else {
             throw new Error("Not a valid Array");
         }
     }
-    async  changeSession(page, session) {
+
+    async  changeSession(session) {
         await Util.changeSelectElmValue(page, this.SELECTOR, session);
     }
-    async getSessions(page) {
-        let sessions = await Util.getSelectElmOptions(page, this.SELECTOR);
-        console.log(sessions);
+    async getSessions() {
+        await this.goto();
+        let sessions = await Util.getSelectElmOptions(this.page, this.SELECTOR);        
         return sessions;
     }
 }
