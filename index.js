@@ -1,9 +1,16 @@
 const puppeteer = require("puppeteer");
+const {Session } = require("./src/Session");
+const {State } = require("./src/State");
+const {Util } = require("./src/Util");
+
 const URL = "http://planningonline.gov.in/ReportData.do?ReportMethod=getAnnualPlanReport";
 let jsonDocument = {};
 (async() => {
     const browser = await puppeteer.launch();
     const page = await browser.newPage();
+    let json = {};
+    const session = new Session(json);
+    const state = new State(page,json,"","");
     /*Listeners*/
     page.on('request', (req)=> {
         console.log("#############-Request-#############");
@@ -28,58 +35,7 @@ let jsonDocument = {};
         console.log("#############-Console-#############");
         console.log(_console);
     });
-
     await page.goto(URL, {waitUntil: "networkidle0"});
-    let sessions = await getSessions(page);
-
-    let states = await getStates(page);
-    changeState(page, states[0]);
+    let financialYears = session.getSessions(page);
+    let states = state.getStates(page);    
 })();
-
-async function changeSession(page, session) {
-    const SELECTOR = 'select[id="planYearId"]';
-    await changeSelectElmValue(page, SELECTOR, session);
-}
-
-async function changeState(page, state) {
-    const SELECTOR = 'select[id="stateCode"]';
-    await changeSelectElmValue(page, SELECTOR, state.value);
-}
-
-async function getStates(page) {
-    const SELECTOR = 'select[id="stateCode"]';
-    let states = await getSelectElmOptions(page, SELECTOR);
-    console.log(states);
-    return states;
-}
-
-async function getSessions(page) {
-    const SELECTOR = 'select[id="planYearId"]';
-    let sessions = await getSelectElmOptions(page, SELECTOR);
-    console.log(sessions);
-    return sessions;
-}
-
-async function changeSelectElmValue(page, selector, value) {
-    console.log("**************-ChangeOptions-**************");
-    console.log(`Selector =${selector}`);
-    console.log(`Value = ${value}`);
-    return page.$eval(selector, (el, value)=> {
-        el.value = value;
-        el.onchange();
-    }, value);
-}
-
-function getSelectElmOptions(page, selector) {
-    console.log("**************-SelectOptions-**************");
-    console.log(`Selector =${selector}`);
-    return page.$eval(selector, (el)=> {
-        let options = [];
-        el.querySelectorAll('option').forEach((e)=> {
-            if (typeof e.value === "string" && e.value.trim() !== "Select" && e.value.trim().length) {
-                options.push({"text": e.innerText, "value": e.value});
-            }
-        });
-        return options;
-    });
-}

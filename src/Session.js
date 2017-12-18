@@ -5,9 +5,11 @@
  * "<session-name>":{}
  * }
  */
+const {Util} = require("./Util");
 class Session {
     constructor(json) {
         this.json = json;
+        this.SELECTOR = 'select[id="planYearId"]';
     }
 
     setSession(sessionArr) {
@@ -19,6 +21,14 @@ class Session {
             throw new Error("Not a valid Array");
         }
     }
+    async  changeSession(page, session) {
+        await Util.changeSelectElmValue(page, this.SELECTOR, session);
+    }
+    async getSessions(page) {
+        let sessions = await Util.getSelectElmOptions(page, this.SELECTOR);
+        console.log(sessions);
+        return sessions;
+    }
 }
-
+    
 exports.Session = Session;
