@@ -7,8 +7,7 @@ class State extends Base{
     constructor(page, json, finYears, stateName) {
         super(json,page)        
         this.finYears = finYears;
-        this.stateName = stateName;
-        this.SELECTOR = 'select[id="stateCode"]';
+        this.stateName = stateName;        
     }
     updateJsonDocument(states) {
         const finYears = Object.keys(this.json);
@@ -18,12 +17,16 @@ class State extends Base{
     }
     async  getStates() {
         await this.goto();
-        let states = await Util.getSelectElmOptions(this.page, this.SELECTOR);
-        console.log(states);
+        let states = await Util.getSelectElmOptions(this.page, State.SELECTOR);        
         return states;
     }
-    async  changeState(state) {
-        await Util.changeSelectElmValue(this.page, this.SELECTOR, state.value);
+    /**
+     * 
+     * @param {Object} state 
+     * @description state = {"text":"<text>","value":<value>}
+     */
+    static async  changeState(page,state) {
+        await Util.changeSelectElmValue(page, State.SELECTOR, state.value);
     }
 
     updateFinYearStates(finYear,states){
@@ -32,5 +35,6 @@ class State extends Base{
         });  
     }
 }
+State.SELECTOR = 'select[id="stateCode"]';
 
 exports.State = State;

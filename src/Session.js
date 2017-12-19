@@ -10,7 +10,6 @@ const {Base} = require("./Base");
 class Session extends Base{
     constructor(json,page) {
         super(json,page);        
-        this.SELECTOR = 'select[id="planYearId"]';
     }
 
     updateJsonDocument(financialYears) {
@@ -23,14 +22,16 @@ class Session extends Base{
         }
     }
 
-    async  changeSession(session) {
-        await Util.changeSelectElmValue(page, this.SELECTOR, session);
+    static async  changeSession(page , session) {
+        await Util.changeSelectElmValue(page, Session.SELECTOR, session);
     }
     async getSessions() {
         await this.goto();
-        let sessions = await Util.getSelectElmOptions(this.page, this.SELECTOR);        
+        let sessions = await Util.getSelectElmOptions(this.page, Session.SELECTOR);        
         return sessions;
     }
 }
+
+Session.SELECTOR = 'select[id="planYearId"]';
     
 exports.Session = Session;
