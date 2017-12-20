@@ -2,7 +2,7 @@
  * Base class that have comman features.
  */
 const jsonfile = require('jsonfile');
-
+const { Util } = require("./Util");
 class Base {
     // TODO: Need to be abstract class.
     constructor(json, page) {
@@ -17,18 +17,28 @@ class Base {
     registerListeners() {
         /*Listeners*/
         this.page.on('request', (req) => {
-            console.log("#############-Request-#############");
-            console.log(`Method = ${req.method} , URL = ${req.url}`);
-        });
-        this.page.on('response', (res) => {
-            console.log("#############-Response-#############");
-            console.log(`Method = ${res.method},URL = ${res.url},Status=${res.status}`);             
-            if (typeof this.listeners !== "undefined" && this.listeners["onResponse"] instanceof Array) {
-                this.listeners["onResponse"].forEach((listener) => {
-                    // TODO: why we need to pass this specifically.
-                    listener.call(this, res.url);
-                })
+            //   TODO this should be part of configuration.
+            if (req.url.search(/\.js$|\.css$|\.png$|\.gif$/) < 0) {
+                console.log("#############-Request-#############");
+                console.log(`Method = ${req.method} , URL = ${req.url}`);
             }
+
+        });
+        this.page.on('response', async (res) => {
+            if (res.url.search(/\.js$|\.css$|\.png$|\.gif$/) < 0) {
+                console.log("#############-Response-#############");
+                console.log(`Method = ${res.method},URL = ${res.url},Status=${res.status}`);
+                // const text = await res.text();
+                await Util.wait();
+                // console.log(text);
+                if (typeof this.listeners !== "undefined" && this.listeners["onResponse"] instanceof Array) {
+                    this.listeners["onResponse"].forEach((listener) => {
+                        // TODO: why we need to pass this specifically.
+                        listener.call(this, res.url);
+                    })
+                }
+            }
+
         });
         this.page.on("error", (error) => {
             console.log("#############-Error-#############");
@@ -46,11 +56,16 @@ class Base {
     writeFile() {
         // TODO: create file in output dir not in src.
         var file = __dirname + '/jsonDocument.json'
-        jsonfile.writeFile(file, this.json, function (err) {
-            if (err) {
-                console.error(err)
-            }
-        });
+        return new Promise((resolve,reject)=>{
+            jsonfile.writeFile(file, this.json, function (err) {
+                if (err) {
+                    console.error(err)
+                    reject();
+                }else{
+                    resolve();
+                }
+            });
+        });        
     }
 }
 

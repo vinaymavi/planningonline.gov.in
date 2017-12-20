@@ -14,9 +14,8 @@ class Session extends Base{
 
     updateJsonDocument(financialYears) {
         if (financialYears instanceof Array) {
-            financialYears.forEach((year, index) => {
-                this.json[year.text] = {'value':year.value,"states":{}};                
-            });
+            this.json["finYears"] = financialYears;
+            this.json["states"] = {};
         } else {
             throw new Error("Not a valid Array");
         }
