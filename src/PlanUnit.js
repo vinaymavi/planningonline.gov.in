@@ -9,7 +9,7 @@ class PlanUnit extends Base {
     constructor(json, page) {
         super(json, page);
         this.listeners = {};
-        this.subscribe();
+        // this.subscribe();
         this.statePromiseResolve = null;
         this.statePromiseReject = null;
         this.timeoutId = null;
@@ -24,7 +24,9 @@ class PlanUnit extends Base {
         const stateNames = Object.keys(states);
         for (let i = 0; i < stateNames.length; i++) {
             try {
-                const statePlanUnit = await Util.changeState.call(this,this.page,states[stateNames[i]],State.SELECTOR);
+                await Util.changeState.call(this, this.page, states[stateNames[i]], State.SELECTOR);
+                await Util.wait();
+                const statePlanUnit = await this.getPlanUnit();
                 states[stateNames[i]]['planUnit']['gramPanchayat'] = statePlanUnit;
                 console.log(statePlanUnit);
             } catch (error) {
@@ -32,7 +34,7 @@ class PlanUnit extends Base {
             }
         }
         return true;
-    }    
+    }
 
     updateJsonDocument(stateStr, planUnit) {
         this.json['states'][stateStr]['planUnit'] = planUnit;
@@ -49,9 +51,22 @@ class PlanUnit extends Base {
                     this.statePromiseResolve(planUnitObj);
                     clearTimeout(this.timeoutId);
                 }
-            });
+            });    
         }
     }
+
+    async getPlanUnit() {
+        let planUnits = await Util.getSelectElmOptions(this.page, PlanUnit.SELECTOR);
+        let planUnitObj = { "districts": {} };
+        planUnits.forEach((planUnit) => {
+            if (planUnit.value.indexOf("G-3") > -1) {
+                planUnitObj['name'] = planUnit.text;
+                planUnitObj['value'] = planUnit.value;                
+            }
+        });
+        return planUnitObj;
+    }
+
     subscribe() {
         this.listeners['onResponse'] = [this.onResponse];
     }

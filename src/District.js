@@ -6,7 +6,7 @@ class District extends Base {
     constructor(json, page) {
         super(json, page)
         this.listeners = {};
-        this.subscribe();
+        // this.subscribe();
         this.statePromiseResolve = null;
         this.statePromiseReject = null;
         this.timeoutId = null;
@@ -22,8 +22,11 @@ class District extends Base {
                 const state = states[stateNames[i]];
                 console.log("@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@");
                 await Util.changeState.call(this, this.page, state, State.SELECTOR);
+                await Util.wait();
                 if (typeof state['planUnit']['gramPanchayat'] !== "undefined") {
-                    const districts = await Util.changePlanUnit.call(this, this.page, state['planUnit']['gramPanchayat'], PlanUnit.SELECTOR);
+                    await Util.changePlanUnit.call(this, this.page, state['planUnit']['gramPanchayat'], PlanUnit.SELECTOR);
+                    await Util.wait();
+                    const districts =  await this.getDistricts();
                     state['planUnit']['gramPanchayat']['districts'] = districts;
                     console.log(districts);
                 } else {
@@ -57,6 +60,20 @@ class District extends Base {
         }
         clearTimeout(this.timeoutId);
     }
+
+    async getDistricts() {
+        let districtObj = {};
+        let districtPanchayats = await Util.getSelectElmOptions(this.page, District.SELECTOR);
+        console.log(districtPanchayats);
+        districtPanchayats.forEach((district) => {
+            districtObj[district.text] = {
+                value: district.value,
+                blockPanchayat: {}
+            }
+        });
+        return districtObj;
+    }
+
     subscribe() {
         this.listeners['onResponse'] = [this.onResponse];
     }

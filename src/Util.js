@@ -24,30 +24,42 @@ class Util {
         console.log(`Value = ${value}`);
         return page.$eval(selector, (el, value) => {
             el.value = value;
+            console.log("Changed Value = "+el.value);
             el.onchange();
         }, value);
     }
 
     static async changeState(page, state, selector) {
-        await Util.changeSelectElmValue(page, selector, state.value);
-        return new Promise((resolve, reject) => {
-            this.statePromiseResolve = resolve;
-            this.statePromiseReject = reject;
-            this.timeoutId = setTimeout(() => {
-                reject(new Error("Request timeout."));
-            }, 3 * 1000);
-        });
+        return Util.changeSelectElmValue(page, selector, state.value);
+        // return new Promise((resolve, reject) => {
+        //     this.statePromiseResolve = resolve;
+        //     this.statePromiseReject = reject;
+        //     this.timeoutId = setTimeout(() => {
+        //         reject(new Error("Request timeout."));
+        //     }, 3 * 1000);
+        // });
     }
     static async changePlanUnit(page, planUnit, selector) {
-        await Util.changeSelectElmValue(page, selector, planUnit.value);
-        return new Promise((resolve, reject) => {
-            this.statePromiseResolve = resolve;
-            this.statePromiseReject = reject;
-            this.timeoutId = setTimeout(() => {
-                reject(new Error("Request timeout."));
-            }, 10 * 1000);
-        });
+        return  Util.changeSelectElmValue(page, selector, planUnit.value);
+        // return new Promise((resolve, reject) => {
+        //     this.statePromiseResolve = resolve;
+        //     this.statePromiseReject = reject;
+        //     this.timeoutId = setTimeout(() => {
+        //         reject(new Error("Request timeout."));
+        //     }, 10 * 1000);
+        // });
     }
+    static async changeDistrict(page,distrit,selector){
+        return  Util.changeSelectElmValue(page, selector, distrit.value);
+        // return new Promise((resolve, reject) => {
+        //     this.statePromiseResolve = resolve;
+        //     this.statePromiseReject = reject;
+        //     this.timeoutId = setTimeout(() => {
+        //         reject(new Error("Request timeout."));
+        //     }, 10 * 1000);
+        // });
+    }
+
     static  wait(){
         return new Promise((resolve,reject)=>{
             setTimeout(()=>{

@@ -1,0 +1,2720 @@
+{
+    "states": {
+        "ANDHRA PRADESH": {
+            "value": "28",
+            "planUnit": {
+                "gramPanchayat": {
+                    "districts": {
+                        "ANANTAPUR": {
+                            "value": "458",
+                            "blockPanchayat": [
+                                {
+                                    "text": "AGALI",
+                                    "value": "5039"
+                                },
+                                {
+                                    "text": "AMADAGUR",
+                                    "value": "5040"
+                                },
+                                {
+                                    "text": "AMARAPURAM",
+                                    "value": "5041"
+                                },
+                                {
+                                    "text": "ANANTAPUR",
+                                    "value": "5042"
+                                },
+                                {
+                                    "text": "ATMAKUR",
+                                    "value": "5043"
+                                },
+                                {
+                                    "text": "BATHALAPALLE",
+                                    "value": "5044"
+                                },
+                                {
+                                    "text": "BELUGUPPA",
+                                    "value": "5045"
+                                },
+                                {
+                                    "text": "BOMMANAHAL",
+                                    "value": "5046"
+                                },
+                                {
+                                    "text": "BRAHMASAMUDRAM",
+                                    "value": "5047"
+                                },
+                                {
+                                    "text": "BUKKAPATNAM",
+                                    "value": "5048"
+                                },
+                                {
+                                    "text": "BUKKARAYASAMUDRAM",
+                                    "value": "5049"
+                                },
+                                {
+                                    "text": "CHENNEKOTHAPALLE",
+                                    "value": "5050"
+                                },
+                                {
+                                    "text": "CHILAMATHUR",
+                                    "value": "5051"
+                                },
+                                {
+                                    "text": "DHARMAVARAM",
+                                    "value": "5053"
+                                },
+                                {
+                                    "text": "D.HIREHAL",
+                                    "value": "5052"
+                                },
+                                {
+                                    "text": "GANDLAPENTA",
+                                    "value": "5054"
+                                },
+                                {
+                                    "text": "GARLADINNE",
+                                    "value": "5055"
+                                },
+                                {
+                                    "text": "GOOTY",
+                                    "value": "5056"
+                                },
+                                {
+                                    "text": "GORANTLA",
+                                    "value": "5057"
+                                },
+                                {
+                                    "text": "GUDIBANDA",
+                                    "value": "5058"
+                                },
+                                {
+                                    "text": "GUMMAGATTA",
+                                    "value": "5059"
+                                },
+                                {
+                                    "text": "GUNTAKAL",
+                                    "value": "5060"
+                                },
+                                {
+                                    "text": "HINDUPUR",
+                                    "value": "5061"
+                                },
+                                {
+                                    "text": "KADIRI",
+                                    "value": "5062"
+                                },
+                                {
+                                    "text": "KALYANDRUG",
+                                    "value": "5063"
+                                },
+                                {
+                                    "text": "KAMBADUR",
+                                    "value": "5064"
+                                },
+                                {
+                                    "text": "KANAGANAPALLE",
+                                    "value": "5065"
+                                },
+                                {
+                                    "text": "KANEKAL",
+                                    "value": "5066"
+                                },
+                                {
+                                    "text": "KOTHACHERUVU",
+                                    "value": "5067"
+                                },
+                                {
+                                    "text": "KUDAIR",
+                                    "value": "5068"
+                                },
+                                {
+                                    "text": "KUNDURPI",
+                                    "value": "5069"
+                                },
+                                {
+                                    "text": "LEPAKSHI",
+                                    "value": "5070"
+                                },
+                                {
+                                    "text": "MADAKASIRA",
+                                    "value": "5071"
+                                },
+                                {
+                                    "text": "MUDIGUBBA",
+                                    "value": "5072"
+                                },
+                                {
+                                    "text": "NALLACHERUVU",
+                                    "value": "5073"
+                                },
+                                {
+                                    "text": "NALLAMADA",
+                                    "value": "5074"
+                                },
+                                {
+                                    "text": "NAMBULAPULIKUNTA",
+                                    "value": "5075"
+                                },
+                                {
+                                    "text": "NARPALA",
+                                    "value": "5076"
+                                },
+                                {
+                                    "text": "OBULADEVARECHERUVU",
+                                    "value": "5077"
+                                },
+                                {
+                                    "text": "PAMIDI",
+                                    "value": "5078"
+                                },
+                                {
+                                    "text": "PARIGI",
+                                    "value": "5079"
+                                },
+                                {
+                                    "text": "PEDDAPAPPUR",
+                                    "value": "5080"
+                                },
+                                {
+                                    "text": "PEDDAVADUGUR",
+                                    "value": "5081"
+                                },
+                                {
+                                    "text": "PENUKONDA",
+                                    "value": "5082"
+                                },
+                                {
+                                    "text": "PUTLUR",
+                                    "value": "5083"
+                                },
+                                {
+                                    "text": "PUTTAPARTHI",
+                                    "value": "5084"
+                                },
+                                {
+                                    "text": "RAMAGIRI",
+                                    "value": "5085"
+                                },
+                                {
+                                    "text": "RAPTADU",
+                                    "value": "5086"
+                                },
+                                {
+                                    "text": "RAYADURG",
+                                    "value": "5087"
+                                },
+                                {
+                                    "text": "RODDAM",
+                                    "value": "5088"
+                                },
+                                {
+                                    "text": "ROLLA",
+                                    "value": "5089"
+                                },
+                                {
+                                    "text": "SETTUR",
+                                    "value": "5090"
+                                },
+                                {
+                                    "text": "SINGANAMALA",
+                                    "value": "5091"
+                                },
+                                {
+                                    "text": "SOMANDEPALLE",
+                                    "value": "5092"
+                                },
+                                {
+                                    "text": "TADIMARRI",
+                                    "value": "5093"
+                                },
+                                {
+                                    "text": "TADIPATRI",
+                                    "value": "5094"
+                                },
+                                {
+                                    "text": "TALUPULA",
+                                    "value": "5095"
+                                },
+                                {
+                                    "text": "TANAKAL",
+                                    "value": "5096"
+                                },
+                                {
+                                    "text": "URAVAKONDA",
+                                    "value": "5097"
+                                },
+                                {
+                                    "text": "VAJRAKARUR",
+                                    "value": "5098"
+                                },
+                                {
+                                    "text": "VIDAPANAKAL",
+                                    "value": "5099"
+                                },
+                                {
+                                    "text": "YADIKI",
+                                    "value": "5100"
+                                },
+                                {
+                                    "text": "YELLANUR",
+                                    "value": "5101"
+                                }
+                            ]
+                        },
+                        "CHITTOOR": {
+                            "value": "459",
+                            "blockPanchayat": [
+                                {
+                                    "text": "BAIREDDIPALLE",
+                                    "value": "5103"
+                                },
+                                {
+                                    "text": "BANGARUPALEM",
+                                    "value": "5104"
+                                },
+                                {
+                                    "text": "B.KOTHAKOTA",
+                                    "value": "5102"
+                                },
+                                {
+                                    "text": "BUCHINADIDU KHANDRIGA",
+                                    "value": "5105"
+                                },
+                                {
+                                    "text": "CHANDRAGIRI",
+                                    "value": "5106"
+                                },
+                                {
+                                    "text": "CHINNAGOTTIGALLU",
+                                    "value": "5107"
+                                },
+                                {
+                                    "text": "CHITTOOR",
+                                    "value": "5108"
+                                },
+                                {
+                                    "text": "CHOWDEPALLE",
+                                    "value": "5109"
+                                },
+                                {
+                                    "text": "GANGADHARA NELLORE",
+                                    "value": "5110"
+                                },
+                                {
+                                    "text": "GANGAVARAM",
+                                    "value": "5111"
+                                },
+                                {
+                                    "text": "GUDIPALA",
+                                    "value": "5112"
+                                },
+                                {
+                                    "text": "GUDUPALLE",
+                                    "value": "5113"
+                                },
+                                {
+                                    "text": "GURRAMKONDA",
+                                    "value": "5114"
+                                },
+                                {
+                                    "text": "IRALA",
+                                    "value": "5115"
+                                },
+                                {
+                                    "text": "KALAKADA",
+                                    "value": "5117"
+                                },
+                                {
+                                    "text": "KALIKIRI",
+                                    "value": "5118"
+                                },
+                                {
+                                    "text": "KAMBHAMVARIPALLE",
+                                    "value": "5119"
+                                },
+                                {
+                                    "text": "KARVETINAGAR",
+                                    "value": "5120"
+                                },
+                                {
+                                    "text": "KUPPAM",
+                                    "value": "5121"
+                                },
+                                {
+                                    "text": "KURABALAKOTA",
+                                    "value": "5122"
+                                },
+                                {
+                                    "text": "K.V.B.PURAM",
+                                    "value": "5116"
+                                },
+                                {
+                                    "text": "MADANAPALLE",
+                                    "value": "5123"
+                                },
+                                {
+                                    "text": "MULAKALACHERUVU",
+                                    "value": "5124"
+                                },
+                                {
+                                    "text": "NAGALAPURAM",
+                                    "value": "5125"
+                                },
+                                {
+                                    "text": "NAGARI",
+                                    "value": "5126"
+                                },
+                                {
+                                    "text": "NARAYANAVANAM",
+                                    "value": "5127"
+                                },
+                                {
+                                    "text": "NIMMANAPALLE",
+                                    "value": "5128"
+                                },
+                                {
+                                    "text": "NINDRA",
+                                    "value": "5129"
+                                },
+                                {
+                                    "text": "PAKALA",
+                                    "value": "5130"
+                                },
+                                {
+                                    "text": "PALAMANER",
+                                    "value": "5131"
+                                },
+                                {
+                                    "text": "PALASAMUDRAM",
+                                    "value": "5132"
+                                },
+                                {
+                                    "text": "PEDDAMANDYAM",
+                                    "value": "5133"
+                                },
+                                {
+                                    "text": "PEDDAPANJANI",
+                                    "value": "5134"
+                                },
+                                {
+                                    "text": "PEDDATHIPPASAMUDRAM",
+                                    "value": "5135"
+                                },
+                                {
+                                    "text": "PENUMURU",
+                                    "value": "5136"
+                                },
+                                {
+                                    "text": "PILER",
+                                    "value": "5137"
+                                },
+                                {
+                                    "text": "PITCHATUR",
+                                    "value": "5138"
+                                },
+                                {
+                                    "text": "PULICHERLA HO REDDIVARIPALLE",
+                                    "value": "5139"
+                                },
+                                {
+                                    "text": "PUNGANUR",
+                                    "value": "5140"
+                                },
+                                {
+                                    "text": "PUTHALAPATTU",
+                                    "value": "5141"
+                                },
+                                {
+                                    "text": "PUTTUR",
+                                    "value": "5142"
+                                },
+                                {
+                                    "text": "RAMACHANDRAPURAM",
+                                    "value": "5143"
+                                },
+                                {
+                                    "text": "RAMAKUPPAM",
+                                    "value": "5144"
+                                },
+                                {
+                                    "text": "RAMASAMUDRAM",
+                                    "value": "5145"
+                                },
+                                {
+                                    "text": "RENIGUNTA",
+                                    "value": "5146"
+                                },
+                                {
+                                    "text": "ROMPICHERLA",
+                                    "value": "5147"
+                                },
+                                {
+                                    "text": "SANTHIPURAM HO ARIMUTHANAPALLE",
+                                    "value": "5148"
+                                },
+                                {
+                                    "text": "SATYAVEDU",
+                                    "value": "5149"
+                                },
+                                {
+                                    "text": "SODAM",
+                                    "value": "5150"
+                                },
+                                {
+                                    "text": "SOMALA",
+                                    "value": "5151"
+                                },
+                                {
+                                    "text": "SRIKALAHASTI",
+                                    "value": "5152"
+                                },
+                                {
+                                    "text": "SRIRANGARAJAPURAM",
+                                    "value": "5153"
+                                },
+                                {
+                                    "text": "THAMBALLAPALLE",
+                                    "value": "5154"
+                                },
+                                {
+                                    "text": "THAVANAMPALLE",
+                                    "value": "5155"
+                                },
+                                {
+                                    "text": "THOTTAMBEDU",
+                                    "value": "5156"
+                                },
+                                {
+                                    "text": "TIRUPATI (RURAL)",
+                                    "value": "5157"
+                                },
+                                {
+                                    "text": "VADAMALAPETA",
+                                    "value": "5158"
+                                },
+                                {
+                                    "text": "VALMIKIPURAM",
+                                    "value": "5159"
+                                },
+                                {
+                                    "text": "VARADAIAHPALEM",
+                                    "value": "5160"
+                                },
+                                {
+                                    "text": "VEDURUKUPPAM",
+                                    "value": "5161"
+                                },
+                                {
+                                    "text": "VENKATAGIRIKOTA",
+                                    "value": "5162"
+                                },
+                                {
+                                    "text": "VIJAYAPURAM",
+                                    "value": "5163"
+                                },
+                                {
+                                    "text": "YADAMARI",
+                                    "value": "5164"
+                                },
+                                {
+                                    "text": "YERPEDU",
+                                    "value": "5165"
+                                },
+                                {
+                                    "text": "YERRAVARIPALEM",
+                                    "value": "5166"
+                                }
+                            ]
+                        },
+                        "EAST GODAVARI": {
+                            "value": "461",
+                            "blockPanchayat": [
+                                {
+                                    "text": "ADDATEEGALA",
+                                    "value": "5217"
+                                },
+                                {
+                                    "text": "AINAVILLI",
+                                    "value": "5218"
+                                },
+                                {
+                                    "text": "ALAMURU",
+                                    "value": "5219"
+                                },
+                                {
+                                    "text": "ALLAVARAM",
+                                    "value": "5220"
+                                },
+                                {
+                                    "text": "AMALAPURAM",
+                                    "value": "5221"
+                                },
+                                {
+                                    "text": "AMBAJIPETA",
+                                    "value": "5222"
+                                },
+                                {
+                                    "text": "ANAPARTHY",
+                                    "value": "5223"
+                                },
+                                {
+                                    "text": "ATREYAPURAM",
+                                    "value": "5224"
+                                },
+                                {
+                                    "text": "BICCAVOLU",
+                                    "value": "5225"
+                                },
+                                {
+                                    "text": "CHINTOOR",
+                                    "value": "5397"
+                                },
+                                {
+                                    "text": "DEVIPATNAM",
+                                    "value": "5226"
+                                },
+                                {
+                                    "text": "GANDEPALLE",
+                                    "value": "5227"
+                                },
+                                {
+                                    "text": "GANGAVARAM",
+                                    "value": "5228"
+                                },
+                                {
+                                    "text": "GOKAVARAM",
+                                    "value": "5229"
+                                },
+                                {
+                                    "text": "GOLLAPROLU",
+                                    "value": "5230"
+                                },
+                                {
+                                    "text": "I. POLAVARAM",
+                                    "value": "5231"
+                                },
+                                {
+                                    "text": "JAGGAMPETA",
+                                    "value": "5232"
+                                },
+                                {
+                                    "text": "KADIAM",
+                                    "value": "5233"
+                                },
+                                {
+                                    "text": "KAJULURU",
+                                    "value": "5234"
+                                },
+                                {
+                                    "text": "KAKINADA RURAL",
+                                    "value": "5235"
+                                },
+                                {
+                                    "text": "KAPILESWARAPURAM",
+                                    "value": "5236"
+                                },
+                                {
+                                    "text": "KARAPA",
+                                    "value": "5237"
+                                },
+                                {
+                                    "text": "KATRENIKONA",
+                                    "value": "5238"
+                                },
+                                {
+                                    "text": "KIRLAMPUDI",
+                                    "value": "5239"
+                                },
+                                {
+                                    "text": "KORUKONDA",
+                                    "value": "5240"
+                                },
+                                {
+                                    "text": "KOTANANDURU",
+                                    "value": "5241"
+                                },
+                                {
+                                    "text": "KOTHAPETA",
+                                    "value": "5243"
+                                },
+                                {
+                                    "text": "KUNAVARAM",
+                                    "value": "5411"
+                                },
+                                {
+                                    "text": "MALIKIPURAM",
+                                    "value": "5244"
+                                },
+                                {
+                                    "text": "MAMIDIKUDURU",
+                                    "value": "5245"
+                                },
+                                {
+                                    "text": "MANDAPETA",
+                                    "value": "5246"
+                                },
+                                {
+                                    "text": "MAREDUMILLI",
+                                    "value": "5247"
+                                },
+                                {
+                                    "text": "MUMMIDIVARAM",
+                                    "value": "5248"
+                                },
+                                {
+                                    "text": "NELLIPAKA",
+                                    "value": "262921"
+                                },
+                                {
+                                    "text": "PAMARRU",
+                                    "value": "5250"
+                                },
+                                {
+                                    "text": "PEDAPUDI",
+                                    "value": "5251"
+                                },
+                                {
+                                    "text": "PEDDAPURAM",
+                                    "value": "5252"
+                                },
+                                {
+                                    "text": "P.GANNAVARAM",
+                                    "value": "5249"
+                                },
+                                {
+                                    "text": "PITHAPURAM",
+                                    "value": "5253"
+                                },
+                                {
+                                    "text": "PRATHIPADU",
+                                    "value": "5254"
+                                },
+                                {
+                                    "text": "RAJAHMUNDRY RURAL",
+                                    "value": "5255"
+                                },
+                                {
+                                    "text": "RAJANAGARAM",
+                                    "value": "5256"
+                                },
+                                {
+                                    "text": "RAJAVOMMANGI",
+                                    "value": "5257"
+                                },
+                                {
+                                    "text": "RAMACHANDRAPURAM",
+                                    "value": "5258"
+                                },
+                                {
+                                    "text": "RAMPACHODAVARAM",
+                                    "value": "5259"
+                                },
+                                {
+                                    "text": "RANGAMPETA",
+                                    "value": "5260"
+                                },
+                                {
+                                    "text": "RAVULAPALEM",
+                                    "value": "5261"
+                                },
+                                {
+                                    "text": "RAYAVARAM",
+                                    "value": "5262"
+                                },
+                                {
+                                    "text": "RAZOLE",
+                                    "value": "5263"
+                                },
+                                {
+                                    "text": "Routhulapudi",
+                                    "value": "6802"
+                                },
+                                {
+                                    "text": "SAKHINETIPALLE",
+                                    "value": "5264"
+                                },
+                                {
+                                    "text": "SAMALKOTA",
+                                    "value": "5265"
+                                },
+                                {
+                                    "text": "SANKHAVARAM",
+                                    "value": "5266"
+                                },
+                                {
+                                    "text": "SEETHANAGARAM",
+                                    "value": "5267"
+                                },
+                                {
+                                    "text": "THALLAREVU",
+                                    "value": "5268"
+                                },
+                                {
+                                    "text": "THONDANGI",
+                                    "value": "5269"
+                                },
+                                {
+                                    "text": "TUNI",
+                                    "value": "5270"
+                                },
+                                {
+                                    "text": "U.KOTHAPALLE",
+                                    "value": "5242"
+                                },
+                                {
+                                    "text": "UPPALAGUPTAM",
+                                    "value": "5271"
+                                },
+                                {
+                                    "text": "VARARAMACHANDRAPURAM",
+                                    "value": "5426"
+                                },
+                                {
+                                    "text": "YELESWARAM",
+                                    "value": "5273"
+                                },
+                                {
+                                    "text": "Y. RAMAVARAM",
+                                    "value": "5272"
+                                }
+                            ]
+                        },
+                        "GUNTUR": {
+                            "value": "462",
+                            "blockPanchayat": [
+                                {
+                                    "text": "AMARAVATHI",
+                                    "value": "5274"
+                                },
+                                {
+                                    "text": "AMRUTHALUR",
+                                    "value": "5275"
+                                },
+                                {
+                                    "text": "ATCHEMPET",
+                                    "value": "5276"
+                                },
+                                {
+                                    "text": "BAPATLA",
+                                    "value": "5277"
+                                },
+                                {
+                                    "text": "BELLAMKONDA",
+                                    "value": "5278"
+                                },
+                                {
+                                    "text": "BHATTIPROLU",
+                                    "value": "5279"
+                                },
+                                {
+                                    "text": "BOLLAPALLE",
+                                    "value": "5280"
+                                },
+                                {
+                                    "text": "CHEBROLE",
+                                    "value": "5281"
+                                },
+                                {
+                                    "text": "CHERUKUPALLE",
+                                    "value": "5282"
+                                },
+                                {
+                                    "text": "CHILAKALURIPET",
+                                    "value": "5283"
+                                },
+                                {
+                                    "text": "DACHEPALLE",
+                                    "value": "5284"
+                                },
+                                {
+                                    "text": "DUGGIRALA",
+                                    "value": "5285"
+                                },
+                                {
+                                    "text": "DURGI",
+                                    "value": "5286"
+                                },
+                                {
+                                    "text": "EDLAPADU",
+                                    "value": "5287"
+                                },
+                                {
+                                    "text": "GUNTUR",
+                                    "value": "5288"
+                                },
+                                {
+                                    "text": "GURAZALA",
+                                    "value": "5289"
+                                },
+                                {
+                                    "text": "IPUR",
+                                    "value": "5290"
+                                },
+                                {
+                                    "text": "KAKUMANU",
+                                    "value": "5291"
+                                },
+                                {
+                                    "text": "KAREMPUDI",
+                                    "value": "5292"
+                                },
+                                {
+                                    "text": "KARLAPALEM",
+                                    "value": "5293"
+                                },
+                                {
+                                    "text": "KOLLIPARA",
+                                    "value": "5294"
+                                },
+                                {
+                                    "text": "KOLLUR",
+                                    "value": "5295"
+                                },
+                                {
+                                    "text": "KROSURU",
+                                    "value": "5296"
+                                },
+                                {
+                                    "text": "MACHAVARAM",
+                                    "value": "5297"
+                                },
+                                {
+                                    "text": "MACHERLA",
+                                    "value": "5298"
+                                },
+                                {
+                                    "text": "MANGALAGIRI",
+                                    "value": "5299"
+                                },
+                                {
+                                    "text": "MEDIKONDURU",
+                                    "value": "5300"
+                                },
+                                {
+                                    "text": "MUPPALLA",
+                                    "value": "5301"
+                                },
+                                {
+                                    "text": "NADENDLA",
+                                    "value": "5302"
+                                },
+                                {
+                                    "text": "NAGARAM",
+                                    "value": "5303"
+                                },
+                                {
+                                    "text": "NARASARAOPETA",
+                                    "value": "5304"
+                                },
+                                {
+                                    "text": "NEKARIKALLU",
+                                    "value": "5305"
+                                },
+                                {
+                                    "text": "NIZAMPATNAM",
+                                    "value": "5306"
+                                },
+                                {
+                                    "text": "NUZENDLA",
+                                    "value": "5307"
+                                },
+                                {
+                                    "text": "PEDAKAKANI",
+                                    "value": "5308"
+                                },
+                                {
+                                    "text": "PEDAKURAPADU",
+                                    "value": "5309"
+                                },
+                                {
+                                    "text": "PEDANANDIPADU",
+                                    "value": "5310"
+                                },
+                                {
+                                    "text": "PHIRANGIPURAM",
+                                    "value": "5311"
+                                },
+                                {
+                                    "text": "PIDUGURALLA",
+                                    "value": "5312"
+                                },
+                                {
+                                    "text": "PITTALAVANIPALEM",
+                                    "value": "5313"
+                                },
+                                {
+                                    "text": "PONNUR",
+                                    "value": "5314"
+                                },
+                                {
+                                    "text": "PRATHIPADU",
+                                    "value": "5315"
+                                },
+                                {
+                                    "text": "RAJUPALEM",
+                                    "value": "5316"
+                                },
+                                {
+                                    "text": "RENTACHINTALA",
+                                    "value": "5317"
+                                },
+                                {
+                                    "text": "REPALLE",
+                                    "value": "5318"
+                                },
+                                {
+                                    "text": "ROMPICHERLA",
+                                    "value": "5319"
+                                },
+                                {
+                                    "text": "SATTENAPALLE",
+                                    "value": "5320"
+                                },
+                                {
+                                    "text": "SAVALYAPURAM",
+                                    "value": "5321"
+                                },
+                                {
+                                    "text": "TADEPALLE",
+                                    "value": "5322"
+                                },
+                                {
+                                    "text": "TADIKONDA",
+                                    "value": "5323"
+                                },
+                                {
+                                    "text": "TENALI",
+                                    "value": "5324"
+                                },
+                                {
+                                    "text": "THULLUR",
+                                    "value": "5325"
+                                },
+                                {
+                                    "text": "TSUNDUR",
+                                    "value": "5326"
+                                },
+                                {
+                                    "text": "VATTICHERUKURU",
+                                    "value": "5327"
+                                },
+                                {
+                                    "text": "VELDURTHY",
+                                    "value": "5328"
+                                },
+                                {
+                                    "text": "VEMURU",
+                                    "value": "5329"
+                                },
+                                {
+                                    "text": "VINUKONDA",
+                                    "value": "5330"
+                                }
+                            ]
+                        },
+                        "KRISHNA": {
+                            "value": "465",
+                            "blockPanchayat": [
+                                {
+                                    "text": "AGIRIPALLI",
+                                    "value": "5435"
+                                },
+                                {
+                                    "text": "A.KONDURU",
+                                    "value": "5434"
+                                },
+                                {
+                                    "text": "AVANIGADDA",
+                                    "value": "5436"
+                                },
+                                {
+                                    "text": "BANTUMILLI",
+                                    "value": "5437"
+                                },
+                                {
+                                    "text": "BAPULAPADU",
+                                    "value": "5438"
+                                },
+                                {
+                                    "text": "CHALLAPALLI",
+                                    "value": "5439"
+                                },
+                                {
+                                    "text": "CHANDARLAPADU",
+                                    "value": "5440"
+                                },
+                                {
+                                    "text": "CHATRAI",
+                                    "value": "5441"
+                                },
+                                {
+                                    "text": "GAMPALAGUDEM",
+                                    "value": "5443"
+                                },
+                                {
+                                    "text": "GANNAVARAM",
+                                    "value": "5444"
+                                },
+                                {
+                                    "text": "GHANTASALA",
+                                    "value": "5445"
+                                },
+                                {
+                                    "text": "G.KONDURU",
+                                    "value": "5442"
+                                },
+                                {
+                                    "text": "GUDIVADA",
+                                    "value": "5446"
+                                },
+                                {
+                                    "text": "GUDLAVALLERU",
+                                    "value": "5447"
+                                },
+                                {
+                                    "text": "GUDURU",
+                                    "value": "5448"
+                                },
+                                {
+                                    "text": "IBRAHIMPATNAM",
+                                    "value": "5449"
+                                },
+                                {
+                                    "text": "JAGGAYYAPETA",
+                                    "value": "5450"
+                                },
+                                {
+                                    "text": "KAIKALUR",
+                                    "value": "5451"
+                                },
+                                {
+                                    "text": "KALIDINDI",
+                                    "value": "5452"
+                                },
+                                {
+                                    "text": "KANCHIKACHERLA",
+                                    "value": "5453"
+                                },
+                                {
+                                    "text": "KANKIPADU",
+                                    "value": "5454"
+                                },
+                                {
+                                    "text": "KODURU",
+                                    "value": "5455"
+                                },
+                                {
+                                    "text": "KRUTTIVENNU",
+                                    "value": "5456"
+                                },
+                                {
+                                    "text": "MACHILIPATNAM",
+                                    "value": "5457"
+                                },
+                                {
+                                    "text": "MANDAVALLI",
+                                    "value": "5458"
+                                },
+                                {
+                                    "text": "MOPIDEVI",
+                                    "value": "5459"
+                                },
+                                {
+                                    "text": "MOVVA",
+                                    "value": "5460"
+                                },
+                                {
+                                    "text": "MUDINEPALLE",
+                                    "value": "5461"
+                                },
+                                {
+                                    "text": "MUSUNURU",
+                                    "value": "5462"
+                                },
+                                {
+                                    "text": "MYLAVARAM",
+                                    "value": "5463"
+                                },
+                                {
+                                    "text": "NAGAYALANKA",
+                                    "value": "5464"
+                                },
+                                {
+                                    "text": "NANDIGAMA",
+                                    "value": "5465"
+                                },
+                                {
+                                    "text": "NANDIVADA",
+                                    "value": "5466"
+                                },
+                                {
+                                    "text": "NUZVID",
+                                    "value": "5467"
+                                },
+                                {
+                                    "text": "PAMARRU",
+                                    "value": "5468"
+                                },
+                                {
+                                    "text": "PAMIDIMUKKALA",
+                                    "value": "5469"
+                                },
+                                {
+                                    "text": "PEDANA",
+                                    "value": "5470"
+                                },
+                                {
+                                    "text": "PEDAPARUPUDI",
+                                    "value": "5471"
+                                },
+                                {
+                                    "text": "PENAMALURU",
+                                    "value": "5472"
+                                },
+                                {
+                                    "text": "PENUGANCHIPROLU",
+                                    "value": "5473"
+                                },
+                                {
+                                    "text": "REDDIGUDEM",
+                                    "value": "5474"
+                                },
+                                {
+                                    "text": "THOTLAVALLURU",
+                                    "value": "5475"
+                                },
+                                {
+                                    "text": "TIRUVURU",
+                                    "value": "5476"
+                                },
+                                {
+                                    "text": "UNGUTURU",
+                                    "value": "5477"
+                                },
+                                {
+                                    "text": "VATSAVAI",
+                                    "value": "5478"
+                                },
+                                {
+                                    "text": "VEERULLAPADU",
+                                    "value": "5479"
+                                },
+                                {
+                                    "text": "VIJAYAWADA RURAL",
+                                    "value": "5480"
+                                },
+                                {
+                                    "text": "VISSANNAPET",
+                                    "value": "5481"
+                                },
+                                {
+                                    "text": "VUYYURU",
+                                    "value": "5482"
+                                }
+                            ]
+                        },
+                        "KURNOOL": {
+                            "value": "466",
+                            "blockPanchayat": [
+                                {
+                                    "text": "ADONI",
+                                    "value": "5483"
+                                },
+                                {
+                                    "text": "ALLAGADDA",
+                                    "value": "5484"
+                                },
+                                {
+                                    "text": "ALUR",
+                                    "value": "5485"
+                                },
+                                {
+                                    "text": "ASPARI",
+                                    "value": "5486"
+                                },
+                                {
+                                    "text": "ATMAKUR",
+                                    "value": "5487"
+                                },
+                                {
+                                    "text": "BANAGANAPALLE",
+                                    "value": "5488"
+                                },
+                                {
+                                    "text": "BANDI ATMAKUR",
+                                    "value": "5489"
+                                },
+                                {
+                                    "text": "BETHAMCHERLA",
+                                    "value": "5490"
+                                },
+                                {
+                                    "text": "C.BELAGAL",
+                                    "value": "5491"
+                                },
+                                {
+                                    "text": "CHAGALAMARRI",
+                                    "value": "5492"
+                                },
+                                {
+                                    "text": "CHIPPAGIRI",
+                                    "value": "5493"
+                                },
+                                {
+                                    "text": "DEVANAKONDA",
+                                    "value": "5494"
+                                },
+                                {
+                                    "text": "DHONE ALIAS DRONACHALAM",
+                                    "value": "5495"
+                                },
+                                {
+                                    "text": "DORNIPADU",
+                                    "value": "5496"
+                                },
+                                {
+                                    "text": "GADIVEMULA",
+                                    "value": "5497"
+                                },
+                                {
+                                    "text": "GONEGANDLA",
+                                    "value": "5498"
+                                },
+                                {
+                                    "text": "GOSPADU",
+                                    "value": "5499"
+                                },
+                                {
+                                    "text": "GUDUR",
+                                    "value": "5500"
+                                },
+                                {
+                                    "text": "HALAHARVI",
+                                    "value": "5501"
+                                },
+                                {
+                                    "text": "HOLAGUNDA",
+                                    "value": "5502"
+                                },
+                                {
+                                    "text": "JUPADU BUNGALOW",
+                                    "value": "5503"
+                                },
+                                {
+                                    "text": "KALLUR",
+                                    "value": "5504"
+                                },
+                                {
+                                    "text": "KODUMUR",
+                                    "value": "5505"
+                                },
+                                {
+                                    "text": "KOILAKUNTLA",
+                                    "value": "5506"
+                                },
+                                {
+                                    "text": "KOLIMIGUNDLA",
+                                    "value": "5507"
+                                },
+                                {
+                                    "text": "KOSIGI",
+                                    "value": "5508"
+                                },
+                                {
+                                    "text": "KOTHAPALLE",
+                                    "value": "5509"
+                                },
+                                {
+                                    "text": "KOWTHALAM",
+                                    "value": "5510"
+                                },
+                                {
+                                    "text": "KRISHNAGIRI",
+                                    "value": "5511"
+                                },
+                                {
+                                    "text": "KURNOOL",
+                                    "value": "5512"
+                                },
+                                {
+                                    "text": "MADDIKERA (EAST)",
+                                    "value": "5513"
+                                },
+                                {
+                                    "text": "MAHANANDI",
+                                    "value": "5514"
+                                },
+                                {
+                                    "text": "MANTRALAYAM",
+                                    "value": "5515"
+                                },
+                                {
+                                    "text": "MIDTHUR",
+                                    "value": "5516"
+                                },
+                                {
+                                    "text": "NANDAVARAM",
+                                    "value": "5517"
+                                },
+                                {
+                                    "text": "NANDIKOTKUR",
+                                    "value": "5518"
+                                },
+                                {
+                                    "text": "NANDYAL",
+                                    "value": "5519"
+                                },
+                                {
+                                    "text": "ORVAKAL",
+                                    "value": "5520"
+                                },
+                                {
+                                    "text": "OWK",
+                                    "value": "5521"
+                                },
+                                {
+                                    "text": "PAGIDYALA",
+                                    "value": "5522"
+                                },
+                                {
+                                    "text": "PAMULAPADU",
+                                    "value": "5523"
+                                },
+                                {
+                                    "text": "PANYAM",
+                                    "value": "5524"
+                                },
+                                {
+                                    "text": "PATTIKONDA",
+                                    "value": "5525"
+                                },
+                                {
+                                    "text": "PEAPULLY",
+                                    "value": "5526"
+                                },
+                                {
+                                    "text": "PEDDAKADABUR",
+                                    "value": "5527"
+                                },
+                                {
+                                    "text": "RUDRAVARAM",
+                                    "value": "5528"
+                                },
+                                {
+                                    "text": "SANJAMALA",
+                                    "value": "5529"
+                                },
+                                {
+                                    "text": "SIRIVEL",
+                                    "value": "5530"
+                                },
+                                {
+                                    "text": "TUGGALI",
+                                    "value": "5532"
+                                },
+                                {
+                                    "text": "UYYALAWADA",
+                                    "value": "5533"
+                                },
+                                {
+                                    "text": "VELDURTHI",
+                                    "value": "5534"
+                                },
+                                {
+                                    "text": "VELUGODU",
+                                    "value": "5535"
+                                },
+                                {
+                                    "text": "YEMMIGANUR",
+                                    "value": "5536"
+                                }
+                            ]
+                        },
+                        "PRAKASAM": {
+                            "value": "472",
+                            "blockPanchayat": [
+                                {
+                                    "text": "ADDANKI",
+                                    "value": "5788"
+                                },
+                                {
+                                    "text": "ARDHAVEEDU",
+                                    "value": "5789"
+                                },
+                                {
+                                    "text": "BALLIKURAVA",
+                                    "value": "5790"
+                                },
+                                {
+                                    "text": "BESTAVARIPETA",
+                                    "value": "5791"
+                                },
+                                {
+                                    "text": "CHANDRA SEKHARA PURAM",
+                                    "value": "5792"
+                                },
+                                {
+                                    "text": "CHIMAKURTHI",
+                                    "value": "5793"
+                                },
+                                {
+                                    "text": "CHINAGANJAM",
+                                    "value": "5794"
+                                },
+                                {
+                                    "text": "CHIRALA",
+                                    "value": "5795"
+                                },
+                                {
+                                    "text": "CUMBUM",
+                                    "value": "5796"
+                                },
+                                {
+                                    "text": "DARSI",
+                                    "value": "5797"
+                                },
+                                {
+                                    "text": "DONAKONDA",
+                                    "value": "5798"
+                                },
+                                {
+                                    "text": "DORNALA",
+                                    "value": "5799"
+                                },
+                                {
+                                    "text": "GIDDALURU",
+                                    "value": "5800"
+                                },
+                                {
+                                    "text": "GUDLURU",
+                                    "value": "5801"
+                                },
+                                {
+                                    "text": "HANUMANTHUNI PADU",
+                                    "value": "5802"
+                                },
+                                {
+                                    "text": "INKOLLU",
+                                    "value": "5803"
+                                },
+                                {
+                                    "text": "JANAKAVARAM PONGULURU",
+                                    "value": "5804"
+                                },
+                                {
+                                    "text": "KANDUKUR",
+                                    "value": "5805"
+                                },
+                                {
+                                    "text": "KANIGIRI",
+                                    "value": "5806"
+                                },
+                                {
+                                    "text": "KARAMCHEDU",
+                                    "value": "5807"
+                                },
+                                {
+                                    "text": "KOMAROLU",
+                                    "value": "5808"
+                                },
+                                {
+                                    "text": "KONAKANAMITTLA",
+                                    "value": "5809"
+                                },
+                                {
+                                    "text": "KONDAPI",
+                                    "value": "5810"
+                                },
+                                {
+                                    "text": "KORISAPADU",
+                                    "value": "5811"
+                                },
+                                {
+                                    "text": "KOTHA PATNAM",
+                                    "value": "5812"
+                                },
+                                {
+                                    "text": "KURICHEDU",
+                                    "value": "5813"
+                                },
+                                {
+                                    "text": "LINGASAMUDRAM",
+                                    "value": "5814"
+                                },
+                                {
+                                    "text": "MADDIPADU",
+                                    "value": "5815"
+                                },
+                                {
+                                    "text": "MARKAPUR",
+                                    "value": "5816"
+                                },
+                                {
+                                    "text": "MARRIPUDI",
+                                    "value": "5817"
+                                },
+                                {
+                                    "text": "MARTUR",
+                                    "value": "5818"
+                                },
+                                {
+                                    "text": "MUNDLAMURU",
+                                    "value": "5819"
+                                },
+                                {
+                                    "text": "NAGULUPPALA PADU",
+                                    "value": "5820"
+                                },
+                                {
+                                    "text": "ONGOLE",
+                                    "value": "5821"
+                                },
+                                {
+                                    "text": "PAMUR",
+                                    "value": "5822"
+                                },
+                                {
+                                    "text": "PARCHUR",
+                                    "value": "5823"
+                                },
+                                {
+                                    "text": "PEDA ARAVEEDU",
+                                    "value": "5824"
+                                },
+                                {
+                                    "text": "PEDACHERLO PALLE",
+                                    "value": "5825"
+                                },
+                                {
+                                    "text": "PODILI",
+                                    "value": "5826"
+                                },
+                                {
+                                    "text": "PONNALURU",
+                                    "value": "5827"
+                                },
+                                {
+                                    "text": "PULLALACHERUVU",
+                                    "value": "5828"
+                                },
+                                {
+                                    "text": "RACHERLA",
+                                    "value": "5829"
+                                },
+                                {
+                                    "text": "SANTHAMAGULURU",
+                                    "value": "5830"
+                                },
+                                {
+                                    "text": "SANTHANUTHALA PADU",
+                                    "value": "5831"
+                                },
+                                {
+                                    "text": "SINGARAYAKONDA",
+                                    "value": "5832"
+                                },
+                                {
+                                    "text": "TALLUR",
+                                    "value": "5835"
+                                },
+                                {
+                                    "text": "TANGUTUR",
+                                    "value": "5833"
+                                },
+                                {
+                                    "text": "TARLUPADU",
+                                    "value": "5834"
+                                },
+                                {
+                                    "text": "TRIPURANTHAKAM",
+                                    "value": "5836"
+                                },
+                                {
+                                    "text": "ULAVAPADU",
+                                    "value": "5837"
+                                },
+                                {
+                                    "text": "VELIGANDLA",
+                                    "value": "5838"
+                                },
+                                {
+                                    "text": "VETAPALEM",
+                                    "value": "5839"
+                                },
+                                {
+                                    "text": "VOLETIVARI PALEM",
+                                    "value": "5840"
+                                },
+                                {
+                                    "text": "YDDANA PUDI",
+                                    "value": "5841"
+                                },
+                                {
+                                    "text": "YERRAGONDAPALEM",
+                                    "value": "5842"
+                                },
+                                {
+                                    "text": "ZARUGUMILLI",
+                                    "value": "5843"
+                                }
+                            ]
+                        },
+                        "SPSR NELLORE": {
+                            "value": "470",
+                            "blockPanchayat": [
+                                {
+                                    "text": "ALLUR",
+                                    "value": "5706"
+                                },
+                                {
+                                    "text": "ANANTHASAGARAM",
+                                    "value": "5707"
+                                },
+                                {
+                                    "text": "ANUMASAMUDRAMPETA",
+                                    "value": "5708"
+                                },
+                                {
+                                    "text": "ATMAKUR",
+                                    "value": "5709"
+                                },
+                                {
+                                    "text": "BALAYAPALLE",
+                                    "value": "5710"
+                                },
+                                {
+                                    "text": "BOGOLE",
+                                    "value": "5711"
+                                },
+                                {
+                                    "text": "BUTCHIREDDIPALEM",
+                                    "value": "5712"
+                                },
+                                {
+                                    "text": "CHEJERLA",
+                                    "value": "5713"
+                                },
+                                {
+                                    "text": "CHILLAKUR",
+                                    "value": "5714"
+                                },
+                                {
+                                    "text": "CHITTAMUR",
+                                    "value": "5715"
+                                },
+                                {
+                                    "text": "DAGADARTHI",
+                                    "value": "5716"
+                                },
+                                {
+                                    "text": "DAKKILI",
+                                    "value": "5717"
+                                },
+                                {
+                                    "text": "DORAVARISATRAM",
+                                    "value": "5718"
+                                },
+                                {
+                                    "text": "DUTTALUR",
+                                    "value": "5719"
+                                },
+                                {
+                                    "text": "GUDUR",
+                                    "value": "5720"
+                                },
+                                {
+                                    "text": "INDUKURPET",
+                                    "value": "5721"
+                                },
+                                {
+                                    "text": "JALADANKI",
+                                    "value": "5722"
+                                },
+                                {
+                                    "text": "KALIGIRI",
+                                    "value": "5723"
+                                },
+                                {
+                                    "text": "KALUVOYA",
+                                    "value": "5724"
+                                },
+                                {
+                                    "text": "KAVALI",
+                                    "value": "5725"
+                                },
+                                {
+                                    "text": "KODAVALUR",
+                                    "value": "5726"
+                                },
+                                {
+                                    "text": "KONDAPURAM",
+                                    "value": "5727"
+                                },
+                                {
+                                    "text": "KOTA",
+                                    "value": "5728"
+                                },
+                                {
+                                    "text": "KOVUR",
+                                    "value": "5729"
+                                },
+                                {
+                                    "text": "MANUBOLU",
+                                    "value": "5730"
+                                },
+                                {
+                                    "text": "MARRIPADU",
+                                    "value": "5731"
+                                },
+                                {
+                                    "text": "MUTHUKUR",
+                                    "value": "5732"
+                                },
+                                {
+                                    "text": "NAIDUPETA",
+                                    "value": "5733"
+                                },
+                                {
+                                    "text": "NELLORE   RURAL",
+                                    "value": "5734"
+                                },
+                                {
+                                    "text": "OZILI",
+                                    "value": "5735"
+                                },
+                                {
+                                    "text": "PELLAKUR",
+                                    "value": "5736"
+                                },
+                                {
+                                    "text": "PODALAKUR",
+                                    "value": "5737"
+                                },
+                                {
+                                    "text": "RAPUR",
+                                    "value": "5738"
+                                },
+                                {
+                                    "text": "SANGAM",
+                                    "value": "5739"
+                                },
+                                {
+                                    "text": "SEETHARAMAPURAM",
+                                    "value": "5740"
+                                },
+                                {
+                                    "text": "SULLURPETA",
+                                    "value": "5741"
+                                },
+                                {
+                                    "text": "SYDAPURAM",
+                                    "value": "5742"
+                                },
+                                {
+                                    "text": "TADA",
+                                    "value": "5743"
+                                },
+                                {
+                                    "text": "THOTAPALLIGUDUR",
+                                    "value": "5744"
+                                },
+                                {
+                                    "text": "UDAYAGIRI",
+                                    "value": "5745"
+                                },
+                                {
+                                    "text": "VAKADU",
+                                    "value": "5746"
+                                },
+                                {
+                                    "text": "VARIKUNTAPADU",
+                                    "value": "5747"
+                                },
+                                {
+                                    "text": "VENKATACHALAM",
+                                    "value": "5748"
+                                },
+                                {
+                                    "text": "VENKATAGIRI",
+                                    "value": "5749"
+                                },
+                                {
+                                    "text": "VIDAVALUR",
+                                    "value": "5750"
+                                },
+                                {
+                                    "text": "VINJAMUR",
+                                    "value": "5751"
+                                }
+                            ]
+                        },
+                        "SRIKAKULAM": {
+                            "value": "474",
+                            "blockPanchayat": [
+                                {
+                                    "text": "AMADALAVALASA",
+                                    "value": "5877"
+                                },
+                                {
+                                    "text": "BHAMINI",
+                                    "value": "5878"
+                                },
+                                {
+                                    "text": "BURJA",
+                                    "value": "5879"
+                                },
+                                {
+                                    "text": "ETCHERLA",
+                                    "value": "5880"
+                                },
+                                {
+                                    "text": "GANGUVARISIGADAM",
+                                    "value": "5881"
+                                },
+                                {
+                                    "text": "GARA",
+                                    "value": "5882"
+                                },
+                                {
+                                    "text": "HIRAMANDALAM",
+                                    "value": "5883"
+                                },
+                                {
+                                    "text": "ICHAPURAM",
+                                    "value": "5884"
+                                },
+                                {
+                                    "text": "JALUMURU",
+                                    "value": "5885"
+                                },
+                                {
+                                    "text": "KANCHILI",
+                                    "value": "5886"
+                                },
+                                {
+                                    "text": "KAVITI",
+                                    "value": "5887"
+                                },
+                                {
+                                    "text": "KOTABOMMILI",
+                                    "value": "5888"
+                                },
+                                {
+                                    "text": "KOTTURU",
+                                    "value": "5889"
+                                },
+                                {
+                                    "text": "LAVERU",
+                                    "value": "5891"
+                                },
+                                {
+                                    "text": "L.N PETA",
+                                    "value": "5890"
+                                },
+                                {
+                                    "text": "MANDASA",
+                                    "value": "5892"
+                                },
+                                {
+                                    "text": "MELIAPUTTI",
+                                    "value": "5893"
+                                },
+                                {
+                                    "text": "NANDIGAM",
+                                    "value": "5894"
+                                },
+                                {
+                                    "text": "NARASANNAPETA",
+                                    "value": "5895"
+                                },
+                                {
+                                    "text": "PALAKONDA",
+                                    "value": "5896"
+                                },
+                                {
+                                    "text": "PALASA",
+                                    "value": "5897"
+                                },
+                                {
+                                    "text": "PATHAPATNAM",
+                                    "value": "5898"
+                                },
+                                {
+                                    "text": "POLAKI",
+                                    "value": "5899"
+                                },
+                                {
+                                    "text": "PONDURU",
+                                    "value": "5900"
+                                },
+                                {
+                                    "text": "RAJAM",
+                                    "value": "5901"
+                                },
+                                {
+                                    "text": "RANASTALAM",
+                                    "value": "5902"
+                                },
+                                {
+                                    "text": "REGIDI AMADALAVALASA",
+                                    "value": "5903"
+                                },
+                                {
+                                    "text": "SANTHABOMMALI",
+                                    "value": "5904"
+                                },
+                                {
+                                    "text": "SANTHAKAVATI",
+                                    "value": "5905"
+                                },
+                                {
+                                    "text": "SARAVAKOTA",
+                                    "value": "5906"
+                                },
+                                {
+                                    "text": "SARUBUJJILI",
+                                    "value": "5907"
+                                },
+                                {
+                                    "text": "SEETHAMPETA",
+                                    "value": "5908"
+                                },
+                                {
+                                    "text": "SOMPETA",
+                                    "value": "5909"
+                                },
+                                {
+                                    "text": "SRIKAKULAM",
+                                    "value": "5910"
+                                },
+                                {
+                                    "text": "TEKKALI",
+                                    "value": "5911"
+                                },
+                                {
+                                    "text": "VAJRAPUKOTTURU",
+                                    "value": "5912"
+                                },
+                                {
+                                    "text": "VANGARA",
+                                    "value": "5913"
+                                },
+                                {
+                                    "text": "VEERAGHATTAM",
+                                    "value": "5914"
+                                }
+                            ]
+                        },
+                        "VISAKHAPATANAM": {
+                            "value": "475",
+                            "blockPanchayat": [
+                                {
+                                    "text": "ACHUTAPURAM",
+                                    "value": "5915"
+                                },
+                                {
+                                    "text": "ANAKAPALLE",
+                                    "value": "5916"
+                                },
+                                {
+                                    "text": "ANANDAPURAM",
+                                    "value": "5917"
+                                },
+                                {
+                                    "text": "ANANTHAGIRI",
+                                    "value": "5918"
+                                },
+                                {
+                                    "text": "ARAKU VALLEY",
+                                    "value": "5919"
+                                },
+                                {
+                                    "text": "BHEEMUNIPATNAM",
+                                    "value": "5920"
+                                },
+                                {
+                                    "text": "BUTCHAYYAPETA",
+                                    "value": "5921"
+                                },
+                                {
+                                    "text": "CHEEDIKADA",
+                                    "value": "5922"
+                                },
+                                {
+                                    "text": "CHINTAPALLE",
+                                    "value": "5923"
+                                },
+                                {
+                                    "text": "CHODAVARAM",
+                                    "value": "5924"
+                                },
+                                {
+                                    "text": "DEVARAPALLE",
+                                    "value": "5925"
+                                },
+                                {
+                                    "text": "DUMBRIGUDA",
+                                    "value": "5926"
+                                },
+                                {
+                                    "text": "G.MADUGULA",
+                                    "value": "5927"
+                                },
+                                {
+                                    "text": "GOLUGONDA",
+                                    "value": "5928"
+                                },
+                                {
+                                    "text": "GUDEM KOTHA VEEDHI",
+                                    "value": "5929"
+                                },
+                                {
+                                    "text": "HUKUMPETA",
+                                    "value": "5930"
+                                },
+                                {
+                                    "text": "KASIMKOTA",
+                                    "value": "5932"
+                                },
+                                {
+                                    "text": "K.KOTAPADU",
+                                    "value": "5931"
+                                },
+                                {
+                                    "text": "KOTAURATLA",
+                                    "value": "5933"
+                                },
+                                {
+                                    "text": "KOYYURU",
+                                    "value": "5934"
+                                },
+                                {
+                                    "text": "MADUGULA",
+                                    "value": "5935"
+                                },
+                                {
+                                    "text": "MAKAVARAPALEM",
+                                    "value": "5936"
+                                },
+                                {
+                                    "text": "MUNAGAPAKA",
+                                    "value": "5937"
+                                },
+                                {
+                                    "text": "MUNCHINGI PUTTU",
+                                    "value": "5938"
+                                },
+                                {
+                                    "text": "NAKKAPALLE",
+                                    "value": "5939"
+                                },
+                                {
+                                    "text": "NARSIPATNAM",
+                                    "value": "5940"
+                                },
+                                {
+                                    "text": "NATHAVARAM",
+                                    "value": "5941"
+                                },
+                                {
+                                    "text": "PADERU",
+                                    "value": "5942"
+                                },
+                                {
+                                    "text": "PADMANABHAM",
+                                    "value": "5943"
+                                },
+                                {
+                                    "text": "PARAVADA",
+                                    "value": "5944"
+                                },
+                                {
+                                    "text": "PAYAKARAOPETA",
+                                    "value": "5945"
+                                },
+                                {
+                                    "text": "PEDA BAYALU",
+                                    "value": "5946"
+                                },
+                                {
+                                    "text": "PENDURTHI",
+                                    "value": "5947"
+                                },
+                                {
+                                    "text": "RAMBILLI",
+                                    "value": "5948"
+                                },
+                                {
+                                    "text": "RAVIKAMATHAM",
+                                    "value": "5949"
+                                },
+                                {
+                                    "text": "ROLUGUNTA",
+                                    "value": "5950"
+                                },
+                                {
+                                    "text": "SABBAVARAM",
+                                    "value": "5952"
+                                },
+                                {
+                                    "text": "S.RAYAVARAM",
+                                    "value": "5951"
+                                },
+                                {
+                                    "text": "YELAMANCHILI",
+                                    "value": "5953"
+                                }
+                            ]
+                        },
+                        "VIZIANAGARAM": {
+                            "value": "476",
+                            "blockPanchayat": [
+                                {
+                                    "text": "BADANGI",
+                                    "value": "5954"
+                                },
+                                {
+                                    "text": "BALIJIPETA",
+                                    "value": "5955"
+                                },
+                                {
+                                    "text": "BHOGHAPURAM",
+                                    "value": "5956"
+                                },
+                                {
+                                    "text": "BOBBILI",
+                                    "value": "5957"
+                                },
+                                {
+                                    "text": "BONDAPALLE",
+                                    "value": "5958"
+                                },
+                                {
+                                    "text": "CHEEPURUPALLE",
+                                    "value": "5959"
+                                },
+                                {
+                                    "text": "DATTIRAJERU",
+                                    "value": "5960"
+                                },
+                                {
+                                    "text": "DENKADA",
+                                    "value": "5961"
+                                },
+                                {
+                                    "text": "GAJAPATHINAGARAM",
+                                    "value": "5962"
+                                },
+                                {
+                                    "text": "GANTYADA",
+                                    "value": "5963"
+                                },
+                                {
+                                    "text": "GARIVIDI",
+                                    "value": "5964"
+                                },
+                                {
+                                    "text": "GARUGUBILLI",
+                                    "value": "5965"
+                                },
+                                {
+                                    "text": "GUMMALAKSHMIPURAM",
+                                    "value": "5966"
+                                },
+                                {
+                                    "text": "GURLA",
+                                    "value": "5967"
+                                },
+                                {
+                                    "text": "JAMI",
+                                    "value": "5968"
+                                },
+                                {
+                                    "text": "JIYYAMMAVALASA",
+                                    "value": "5969"
+                                },
+                                {
+                                    "text": "KOMARADA",
+                                    "value": "5970"
+                                },
+                                {
+                                    "text": "KOTHAVALASA",
+                                    "value": "5971"
+                                },
+                                {
+                                    "text": "KURUPAM",
+                                    "value": "5972"
+                                },
+                                {
+                                    "text": "LAKKAVARAPUKOTA",
+                                    "value": "5973"
+                                },
+                                {
+                                    "text": "MAKKUVA",
+                                    "value": "5974"
+                                },
+                                {
+                                    "text": "MENTADA",
+                                    "value": "5975"
+                                },
+                                {
+                                    "text": "MERAKAMUDIDAM",
+                                    "value": "5976"
+                                },
+                                {
+                                    "text": "NELLIMARLA",
+                                    "value": "5977"
+                                },
+                                {
+                                    "text": "PACHIPENTA",
+                                    "value": "5978"
+                                },
+                                {
+                                    "text": "PARVATHIPURAM",
+                                    "value": "5979"
+                                },
+                                {
+                                    "text": "PUSAPATIREGA",
+                                    "value": "5980"
+                                },
+                                {
+                                    "text": "RAMABHADRAPURAM",
+                                    "value": "5981"
+                                },
+                                {
+                                    "text": "SALUR",
+                                    "value": "5982"
+                                },
+                                {
+                                    "text": "SEETHANAGARAM",
+                                    "value": "5983"
+                                },
+                                {
+                                    "text": "SRUNGAVARAPUKOTA",
+                                    "value": "5984"
+                                },
+                                {
+                                    "text": "THERLAM",
+                                    "value": "5985"
+                                },
+                                {
+                                    "text": "VEPADA",
+                                    "value": "5986"
+                                },
+                                {
+                                    "text": "VIZIANAGARAM",
+                                    "value": "5987"
+                                }
+                            ]
+                        },
+                        "WEST GODAVARI": {
+                            "value": "478",
+                            "blockPanchayat": [
+                                {
+                                    "text": "ACHANTA",
+                                    "value": "6038"
+                                },
+                                {
+                                    "text": "AKIVIDU",
+                                    "value": "6039"
+                                },
+                                {
+                                    "text": "ATTILI",
+                                    "value": "6040"
+                                },
+                                {
+                                    "text": "BHIMADOLE",
+                                    "value": "6041"
+                                },
+                                {
+                                    "text": "BHIMAVARAM",
+                                    "value": "6042"
+                                },
+                                {
+                                    "text": "BUTTAYAGUDEM",
+                                    "value": "6043"
+                                },
+                                {
+                                    "text": "CHAGALLU",
+                                    "value": "6044"
+                                },
+                                {
+                                    "text": "CHINTALAPUDI",
+                                    "value": "6045"
+                                },
+                                {
+                                    "text": "DENDULURU",
+                                    "value": "6046"
+                                },
+                                {
+                                    "text": "DEVARAPALLE",
+                                    "value": "6047"
+                                },
+                                {
+                                    "text": "DWARAKATIRUMALA",
+                                    "value": "6048"
+                                },
+                                {
+                                    "text": "ELAMANCHILI",
+                                    "value": "6049"
+                                },
+                                {
+                                    "text": "ELURU",
+                                    "value": "6050"
+                                },
+                                {
+                                    "text": "GANAPAVARAM",
+                                    "value": "6051"
+                                },
+                                {
+                                    "text": "GOPALAPURAM",
+                                    "value": "6052"
+                                },
+                                {
+                                    "text": "IRAGAVARAM",
+                                    "value": "6053"
+                                },
+                                {
+                                    "text": "JANGAREDDIGUDEM",
+                                    "value": "6054"
+                                },
+                                {
+                                    "text": "JEELUGUMILLI",
+                                    "value": "6055"
+                                },
+                                {
+                                    "text": "KALLA",
+                                    "value": "6056"
+                                },
+                                {
+                                    "text": "KAMAVARAPUKOTA",
+                                    "value": "6057"
+                                },
+                                {
+                                    "text": "KOVVUR",
+                                    "value": "6058"
+                                },
+                                {
+                                    "text": "KOYYALAGUDEM",
+                                    "value": "6059"
+                                },
+                                {
+                                    "text": "KUKKUNUR",
+                                    "value": "5410"
+                                },
+                                {
+                                    "text": "LINGAPALEM",
+                                    "value": "6060"
+                                },
+                                {
+                                    "text": "MOGALTHUR",
+                                    "value": "6061"
+                                },
+                                {
+                                    "text": "NALLAJERLA",
+                                    "value": "6062"
+                                },
+                                {
+                                    "text": "NARSAPUR",
+                                    "value": "6063"
+                                },
+                                {
+                                    "text": "NIDADAVOLE",
+                                    "value": "6064"
+                                },
+                                {
+                                    "text": "NIDAMARRU",
+                                    "value": "6065"
+                                },
+                                {
+                                    "text": "PALACOLE",
+                                    "value": "6066"
+                                },
+                                {
+                                    "text": "PALAKODERU",
+                                    "value": "6067"
+                                },
+                                {
+                                    "text": "PEDAPADU",
+                                    "value": "6068"
+                                },
+                                {
+                                    "text": "PEDAVEGI",
+                                    "value": "6069"
+                                },
+                                {
+                                    "text": "PENTAPADU",
+                                    "value": "6070"
+                                },
+                                {
+                                    "text": "PENUGONDA",
+                                    "value": "6071"
+                                },
+                                {
+                                    "text": "PENUMANTRA",
+                                    "value": "6072"
+                                },
+                                {
+                                    "text": "PERAVALI",
+                                    "value": "6073"
+                                },
+                                {
+                                    "text": "PODURU",
+                                    "value": "6074"
+                                },
+                                {
+                                    "text": "POLAVARAM",
+                                    "value": "6075"
+                                },
+                                {
+                                    "text": "TADEPALLIGUDEM",
+                                    "value": "6077"
+                                },
+                                {
+                                    "text": "TANUKU",
+                                    "value": "6078"
+                                },
+                                {
+                                    "text": "THALLAPUDI",
+                                    "value": "6079"
+                                },
+                                {
+                                    "text": "T.NARASAPURAM",
+                                    "value": "6076"
+                                },
+                                {
+                                    "text": "UNDI",
+                                    "value": "6080"
+                                },
+                                {
+                                    "text": "UNDRAJAVARAM",
+                                    "value": "6081"
+                                },
+                                {
+                                    "text": "UNGUTURU",
+                                    "value": "6082"
+                                },
+                                {
+                                    "text": "VEERAVASARAM",
+                                    "value": "6083"
+                                },
+                                {
+                                    "text": "VELAIRPAD",
+                                    "value": "5427"
+                                }
+                            ]
+                        },
+                        "Y.S.R.": {
+                            "value": "460",
+                            "blockPanchayat": [
+                                {
+                                    "text": "ATLUR",
+                                    "value": "5167"
+                                },
+                                {
+                                    "text": "BADVEL",
+                                    "value": "5169"
+                                },
+                                {
+                                    "text": "B.KODUR",
+                                    "value": "5168"
+                                },
+                                {
+                                    "text": "BRAHMAMGARIMATHAM.",
+                                    "value": "5170"
+                                },
+                                {
+                                    "text": "CHAKRAYAPET",
+                                    "value": "5171"
+                                },
+                                {
+                                    "text": "CHAPADU",
+                                    "value": "5172"
+                                },
+                                {
+                                    "text": "CHENNUR",
+                                    "value": "5173"
+                                },
+                                {
+                                    "text": "CHINNAMANDEM",
+                                    "value": "5174"
+                                },
+                                {
+                                    "text": "CHINTAKOMMA DINNE",
+                                    "value": "5175"
+                                },
+                                {
+                                    "text": "CHITVEL",
+                                    "value": "5176"
+                                },
+                                {
+                                    "text": "DUVVUR",
+                                    "value": "5177"
+                                },
+                                {
+                                    "text": "GALIVEEDU",
+                                    "value": "5178"
+                                },
+                                {
+                                    "text": "GOPAVARAM",
+                                    "value": "5179"
+                                },
+                                {
+                                    "text": "JAMMALAMADUGU",
+                                    "value": "5180"
+                                },
+                                {
+                                    "text": "KALASAPADU",
+                                    "value": "5181"
+                                },
+                                {
+                                    "text": "KAMALAPURAM",
+                                    "value": "5182"
+                                },
+                                {
+                                    "text": "KHAJIPET",
+                                    "value": "5183"
+                                },
+                                {
+                                    "text": "KODUR",
+                                    "value": "5184"
+                                },
+                                {
+                                    "text": "KONDAPURAM",
+                                    "value": "5185"
+                                },
+                                {
+                                    "text": "LAKKIREDDIPALLE",
+                                    "value": "5186"
+                                },
+                                {
+                                    "text": "LINGALA",
+                                    "value": "5187"
+                                },
+                                {
+                                    "text": "MUDDANUR",
+                                    "value": "5188"
+                                },
+                                {
+                                    "text": "MYDUKUR",
+                                    "value": "5189"
+                                },
+                                {
+                                    "text": "MYLAVARAM",
+                                    "value": "5190"
+                                },
+                                {
+                                    "text": "NANDALUR",
+                                    "value": "5191"
+                                },
+                                {
+                                    "text": "OBULAVARIPALLE",
+                                    "value": "5192"
+                                },
+                                {
+                                    "text": "PEDDAMUDIUM",
+                                    "value": "5193"
+                                },
+                                {
+                                    "text": "PENAGALUR",
+                                    "value": "5194"
+                                },
+                                {
+                                    "text": "PENDLIMARRI",
+                                    "value": "5195"
+                                },
+                                {
+                                    "text": "PORUMAMILLA",
+                                    "value": "5196"
+                                },
+                                {
+                                    "text": "PRODDATUR",
+                                    "value": "5197"
+                                },
+                                {
+                                    "text": "PULIVENDLA",
+                                    "value": "5198"
+                                },
+                                {
+                                    "text": "PULLAMPETA",
+                                    "value": "5199"
+                                },
+                                {
+                                    "text": "RAJAMPET",
+                                    "value": "5200"
+                                },
+                                {
+                                    "text": "RAJUPALEM",
+                                    "value": "5201"
+                                },
+                                {
+                                    "text": "RAMAPURAM",
+                                    "value": "5202"
+                                },
+                                {
+                                    "text": "RAYACHOTY",
+                                    "value": "5203"
+                                },
+                                {
+                                    "text": "SAMBEPALLE",
+                                    "value": "5204"
+                                },
+                                {
+                                    "text": "SIDHOUT",
+                                    "value": "5205"
+                                },
+                                {
+                                    "text": "SIMHADRIPURAM",
+                                    "value": "5206"
+                                },
+                                {
+                                    "text": "SRI AVADUTHA KASINAYANA",
+                                    "value": "5207"
+                                },
+                                {
+                                    "text": "THONDUR",
+                                    "value": "5209"
+                                },
+                                {
+                                    "text": "T.SUNDUPALLE",
+                                    "value": "5208"
+                                },
+                                {
+                                    "text": "VALLUR",
+                                    "value": "5210"
+                                },
+                                {
+                                    "text": "VEERABALLI",
+                                    "value": "5211"
+                                },
+                                {
+                                    "text": "VEERAPANAYANI PALLE",
+                                    "value": "5212"
+                                },
+                                {
+                                    "text": "VEMPALLE",
+                                    "value": "5213"
+                                },
+                                {
+                                    "text": "VEMULA",
+                                    "value": "5214"
+                                },
+                                {
+                                    "text": "VONTIMITTA",
+                                    "value": "5215"
+                                },
+                                {
+                                    "text": "YERRAGUNTLA",
+                                    "value": "5216"
+                                }
+                            ]
+                        }
+                    },
+                    "name": "Grama Panchayat",
+                    "value": "G-3-2-0-0"
+                }
+            }
+        }
+    }
+}

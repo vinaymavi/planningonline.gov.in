@@ -9,9 +9,11 @@
   "author": "VinayMavi <vinaymavi@gmail.com>",
   "license": "MIT",
   "dependencies": {
+    "jsonfile": "^4.0.0",
     "puppeteer": "^0.13.0"
   },
   "devDependencies": {
+    "chalk": "^2.3.0",
     "jest-cli": "^21.2.1"
   }
 }

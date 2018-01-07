@@ -1,0 +1,823 @@
+{
+    "states": {
+        "ARUNACHAL PRADESH": {
+            "value": "12",
+            "planUnit": {
+                "gramPanchayat": {
+                    "districts": {
+                        "ANJAW": {
+                            "value": "572",
+                            "blockPanchayat": [
+                                {
+                                    "text": "CHONGLONGAM",
+                                    "value": "2780"
+                                },
+                                {
+                                    "text": "HAWAI-WALONG",
+                                    "value": "2781"
+                                },
+                                {
+                                    "text": "HAYULIANG",
+                                    "value": "2782"
+                                },
+                                {
+                                    "text": "MANCHAL",
+                                    "value": "2784"
+                                }
+                            ]
+                        },
+                        "CHANGLANG": {
+                            "value": "220",
+                            "blockPanchayat": [
+                                {
+                                    "text": "BORDUMSA",
+                                    "value": "2735"
+                                },
+                                {
+                                    "text": "CHANGLANG",
+                                    "value": "2736"
+                                },
+                                {
+                                    "text": "DIYUM",
+                                    "value": "2737"
+                                },
+                                {
+                                    "text": "JAIRAMPUR",
+                                    "value": "273625"
+                                },
+                                {
+                                    "text": "KHARSANG",
+                                    "value": "274799"
+                                },
+                                {
+                                    "text": "KHIMYANG",
+                                    "value": "2738"
+                                },
+                                {
+                                    "text": "MANMAO",
+                                    "value": "2739"
+                                },
+                                {
+                                    "text": "MIAO",
+                                    "value": "2740"
+                                },
+                                {
+                                    "text": "NAMPONG",
+                                    "value": "2741"
+                                },
+                                {
+                                    "text": "RIMA PUTOK",
+                                    "value": "273615"
+                                },
+                                {
+                                    "text": "VIJOYNAGAR",
+                                    "value": "273616"
+                                }
+                            ]
+                        },
+                        "DIBANG VALLEY": {
+                            "value": "221",
+                            "blockPanchayat": [
+                                {
+                                    "text": "ANELIH-ARZOO",
+                                    "value": "2742"
+                                },
+                                {
+                                    "text": "ANINI-MEPI",
+                                    "value": "2743"
+                                },
+                                {
+                                    "text": "ETALIN MALINYE",
+                                    "value": "2744"
+                                }
+                            ]
+                        },
+                        "EAST KAMENG": {
+                            "value": "222",
+                            "blockPanchayat": [
+                                {
+                                    "text": "BAMENG EAST",
+                                    "value": "2745"
+                                },
+                                {
+                                    "text": "BAMENG WEST",
+                                    "value": "2746"
+                                },
+                                {
+                                    "text": "BANA",
+                                    "value": "2747"
+                                },
+                                {
+                                    "text": "CHAYANGTAJO",
+                                    "value": "2748"
+                                },
+                                {
+                                    "text": "GYAWEPURANG",
+                                    "value": "273647"
+                                },
+                                {
+                                    "text": "PAKKEKESSANG",
+                                    "value": "2749"
+                                },
+                                {
+                                    "text": "PAPU VALLEY EAST",
+                                    "value": "2750"
+                                },
+                                {
+                                    "text": "PAPU VALLEY WEST",
+                                    "value": "273645"
+                                },
+                                {
+                                    "text": "PIPU",
+                                    "value": "2751"
+                                },
+                                {
+                                    "text": "SAWA",
+                                    "value": "2752"
+                                },
+                                {
+                                    "text": "SEIJOSA",
+                                    "value": "2753"
+                                },
+                                {
+                                    "text": "SEPPA EAST",
+                                    "value": "2754"
+                                },
+                                {
+                                    "text": "SEPPA WEST",
+                                    "value": "273646"
+                                },
+                                {
+                                    "text": "WATTE",
+                                    "value": "273648"
+                                }
+                            ]
+                        },
+                        "EAST SIANG": {
+                            "value": "223",
+                            "blockPanchayat": [
+                                {
+                                    "text": "BILAT",
+                                    "value": "2755"
+                                },
+                                {
+                                    "text": "BOGONG I",
+                                    "value": "2756"
+                                },
+                                {
+                                    "text": "Bogong II",
+                                    "value": "273696"
+                                },
+                                {
+                                    "text": "BOSING I",
+                                    "value": "2758"
+                                },
+                                {
+                                    "text": "Bosing II",
+                                    "value": "273695"
+                                },
+                                {
+                                    "text": "KOYU",
+                                    "value": "2759"
+                                },
+                                {
+                                    "text": "MEBO BANGGO",
+                                    "value": "2760"
+                                },
+                                {
+                                    "text": "MONGGU-BANGGO",
+                                    "value": "2761"
+                                },
+                                {
+                                    "text": "NARI-SEREN",
+                                    "value": "2762"
+                                },
+                                {
+                                    "text": "RUKSIN",
+                                    "value": "2764"
+                                },
+                                {
+                                    "text": "SILLE - OYAN",
+                                    "value": "2765"
+                                }
+                            ]
+                        },
+                        "KRA DAADI": {
+                            "value": "274254",
+                            "blockPanchayat": [
+                                {
+                                    "text": "CHAMBANG",
+                                    "value": "2766"
+                                },
+                                {
+                                    "text": "GANGTE-TARAK LENGDI",
+                                    "value": "2768"
+                                },
+                                {
+                                    "text": "PALIN",
+                                    "value": "2771"
+                                },
+                                {
+                                    "text": "PIPSORANG",
+                                    "value": "2773"
+                                },
+                                {
+                                    "text": "TALI",
+                                    "value": "2776"
+                                },
+                                {
+                                    "text": "YANGTE",
+                                    "value": "2778"
+                                }
+                            ]
+                        },
+                        "KURUNG KUMEY": {
+                            "value": "224",
+                            "blockPanchayat": [
+                                {
+                                    "text": "DAMIN",
+                                    "value": "2767"
+                                },
+                                {
+                                    "text": "LOWER KOLORIANG",
+                                    "value": "2769"
+                                },
+                                {
+                                    "text": "NYAPIN",
+                                    "value": "2770"
+                                },
+                                {
+                                    "text": "PARSI-PARLO",
+                                    "value": "2772"
+                                },
+                                {
+                                    "text": "PHASSANG",
+                                    "value": "273742"
+                                },
+                                {
+                                    "text": "SANGRAM",
+                                    "value": "2774"
+                                },
+                                {
+                                    "text": "SARLI",
+                                    "value": "2775"
+                                },
+                                {
+                                    "text": "UPPER KOLORIANG",
+                                    "value": "2777"
+                                }
+                            ]
+                        },
+                        "LOHIT": {
+                            "value": "225",
+                            "blockPanchayat": [
+                                {
+                                    "text": "SUNPURA",
+                                    "value": "2787"
+                                },
+                                {
+                                    "text": "TEZU",
+                                    "value": "2788"
+                                },
+                                {
+                                    "text": "WAKRO",
+                                    "value": "2790"
+                                }
+                            ]
+                        },
+                        "LONGDING": {
+                            "value": "262016",
+                            "blockPanchayat": [
+                                {
+                                    "text": "Chubam",
+                                    "value": "273572"
+                                },
+                                {
+                                    "text": "Kanubari",
+                                    "value": "273584"
+                                },
+                                {
+                                    "text": "Khakam",
+                                    "value": "273583"
+                                },
+                                {
+                                    "text": "Lawnu",
+                                    "value": "273585"
+                                },
+                                {
+                                    "text": "Longchan",
+                                    "value": "273573"
+                                },
+                                {
+                                    "text": "Longding",
+                                    "value": "273571"
+                                },
+                                {
+                                    "text": "Pongchau",
+                                    "value": "273499"
+                                },
+                                {
+                                    "text": "Pumao",
+                                    "value": "273494"
+                                },
+                                {
+                                    "text": "Wakka",
+                                    "value": "273485"
+                                }
+                            ]
+                        },
+                        "LOWER DIBANG VALLEY": {
+                            "value": "226",
+                            "blockPanchayat": [
+                                {
+                                    "text": "DAMBUK",
+                                    "value": "2791"
+                                },
+                                {
+                                    "text": "HUNLI-DESALI",
+                                    "value": "2792"
+                                },
+                                {
+                                    "text": "IDULI",
+                                    "value": "2793"
+                                },
+                                {
+                                    "text": "KORONU",
+                                    "value": "2794"
+                                },
+                                {
+                                    "text": "MEKA",
+                                    "value": "2795"
+                                },
+                                {
+                                    "text": "ROING",
+                                    "value": "2796"
+                                }
+                            ]
+                        },
+                        "LOWER SUBANSIRI": {
+                            "value": "227",
+                            "blockPanchayat": [
+                                {
+                                    "text": "DIIBO",
+                                    "value": "2797"
+                                },
+                                {
+                                    "text": "DOLLUMUKH TAMEN",
+                                    "value": "2798"
+                                },
+                                {
+                                    "text": "HARI",
+                                    "value": "2799"
+                                },
+                                {
+                                    "text": "HIJA",
+                                    "value": "2800"
+                                },
+                                {
+                                    "text": "KAMPORIJO -I",
+                                    "value": "2801"
+                                },
+                                {
+                                    "text": "KAMPORIJO -II",
+                                    "value": "2802"
+                                },
+                                {
+                                    "text": "NICHII",
+                                    "value": "2803"
+                                },
+                                {
+                                    "text": "NITII",
+                                    "value": "2804"
+                                },
+                                {
+                                    "text": "PISTANA",
+                                    "value": "2805"
+                                },
+                                {
+                                    "text": "RAGA",
+                                    "value": "2806"
+                                },
+                                {
+                                    "text": "RERU KALUNG",
+                                    "value": "2807"
+                                },
+                                {
+                                    "text": "TAJANG",
+                                    "value": "2808"
+                                },
+                                {
+                                    "text": "YACHULI",
+                                    "value": "2809"
+                                },
+                                {
+                                    "text": "YAZALI",
+                                    "value": "2810"
+                                }
+                            ]
+                        },
+                        "NAMSAI": {
+                            "value": "274256",
+                            "blockPanchayat": [
+                                {
+                                    "text": "CHOWKHAM",
+                                    "value": "2779"
+                                },
+                                {
+                                    "text": "LEKANG",
+                                    "value": "2783"
+                                },
+                                {
+                                    "text": "NAMSAI",
+                                    "value": "2785"
+                                },
+                                {
+                                    "text": "NINGROO",
+                                    "value": "2786"
+                                },
+                                {
+                                    "text": "UPPER LEKANG",
+                                    "value": "2789"
+                                }
+                            ]
+                        },
+                        "PAPUM PARE": {
+                            "value": "228",
+                            "blockPanchayat": [
+                                {
+                                    "text": "BANDERDEWA",
+                                    "value": "2815"
+                                },
+                                {
+                                    "text": "BATT GANGA",
+                                    "value": "273767"
+                                },
+                                {
+                                    "text": "BORUM",
+                                    "value": "2811"
+                                },
+                                {
+                                    "text": "DOIMUKH",
+                                    "value": "2812"
+                                },
+                                {
+                                    "text": "KIMIN",
+                                    "value": "2813"
+                                },
+                                {
+                                    "text": "LEPORIANG",
+                                    "value": "2814"
+                                },
+                                {
+                                    "text": "LOWER BALIJAN",
+                                    "value": "2820"
+                                },
+                                {
+                                    "text": "MENGIO",
+                                    "value": "2816"
+                                },
+                                {
+                                    "text": "SAGALEE",
+                                    "value": "2817"
+                                },
+                                {
+                                    "text": "TARASSO",
+                                    "value": "2818"
+                                },
+                                {
+                                    "text": "TORU",
+                                    "value": "2819"
+                                },
+                                {
+                                    "text": "UPPER BALIJAN",
+                                    "value": "273766"
+                                }
+                            ]
+                        },
+                        "SIANG": {
+                            "value": "274255",
+                            "blockPanchayat": [
+                                {
+                                    "text": "BOLENG ",
+                                    "value": "2757"
+                                },
+                                {
+                                    "text": "JOMLO MOBUK",
+                                    "value": "2875"
+                                },
+                                {
+                                    "text": "KAYING",
+                                    "value": "2876"
+                                },
+                                {
+                                    "text": "Kebang",
+                                    "value": "273694"
+                                },
+                                {
+                                    "text": "PANGIN",
+                                    "value": "2763"
+                                },
+                                {
+                                    "text": "PAYUM",
+                                    "value": "2881"
+                                },
+                                {
+                                    "text": "REBO",
+                                    "value": "6834"
+                                },
+                                {
+                                    "text": "RIGA",
+                                    "value": "6833"
+                                },
+                                {
+                                    "text": "RUMGONG",
+                                    "value": "2882"
+                                }
+                            ]
+                        },
+                        "TAWANG": {
+                            "value": "229",
+                            "blockPanchayat": [
+                                {
+                                    "text": "JANG-THINGBU",
+                                    "value": "2821"
+                                },
+                                {
+                                    "text": "KITPI",
+                                    "value": "2822"
+                                },
+                                {
+                                    "text": "LUMLA",
+                                    "value": "2823"
+                                },
+                                {
+                                    "text": "MUKTO",
+                                    "value": "2824"
+                                },
+                                {
+                                    "text": "TAWANG",
+                                    "value": "2825"
+                                },
+                                {
+                                    "text": "ZEMITHANG-DUDUNGHAR",
+                                    "value": "2826"
+                                }
+                            ]
+                        },
+                        "TIRAP": {
+                            "value": "230",
+                            "blockPanchayat": [
+                                {
+                                    "text": "DADAM",
+                                    "value": "2828"
+                                },
+                                {
+                                    "text": "DEOMALI",
+                                    "value": "2829"
+                                },
+                                {
+                                    "text": "KAPU",
+                                    "value": "2831"
+                                },
+                                {
+                                    "text": "KHELA  LAMSA",
+                                    "value": "2833"
+                                },
+                                {
+                                    "text": "KHONSA",
+                                    "value": "2834"
+                                },
+                                {
+                                    "text": "LAZU",
+                                    "value": "2835"
+                                },
+                                {
+                                    "text": "SOHA",
+                                    "value": "2841"
+                                }
+                            ]
+                        },
+                        "UPPER SIANG": {
+                            "value": "231",
+                            "blockPanchayat": [
+                                {
+                                    "text": "GEKU",
+                                    "value": "2843"
+                                },
+                                {
+                                    "text": "Jengging",
+                                    "value": "273589"
+                                },
+                                {
+                                    "text": "Katan",
+                                    "value": "273590"
+                                },
+                                {
+                                    "text": "Likor Singa",
+                                    "value": "273591"
+                                },
+                                {
+                                    "text": "MARIYANG",
+                                    "value": "2844"
+                                },
+                                {
+                                    "text": "TUTING",
+                                    "value": "2845"
+                                },
+                                {
+                                    "text": "YINGKIONG",
+                                    "value": "2846"
+                                }
+                            ]
+                        },
+                        "UPPER SUBANSIRI": {
+                            "value": "232",
+                            "blockPanchayat": [
+                                {
+                                    "text": "BARIRIJO",
+                                    "value": "2847"
+                                },
+                                {
+                                    "text": "CHETAM",
+                                    "value": "6831"
+                                },
+                                {
+                                    "text": "CHIKOM",
+                                    "value": "6832"
+                                },
+                                {
+                                    "text": "DAPORIJO-SIGIN-I",
+                                    "value": "6830"
+                                },
+                                {
+                                    "text": "DAPORIJO-SIGIN-II",
+                                    "value": "2849"
+                                },
+                                {
+                                    "text": "DUMPORIJO",
+                                    "value": "2850"
+                                },
+                                {
+                                    "text": "GIBA",
+                                    "value": "2848"
+                                },
+                                {
+                                    "text": "GUSAR",
+                                    "value": "2851"
+                                },
+                                {
+                                    "text": "NACHO",
+                                    "value": "2852"
+                                },
+                                {
+                                    "text": "PATE",
+                                    "value": "2853"
+                                },
+                                {
+                                    "text": "PAYENG",
+                                    "value": "6818"
+                                },
+                                {
+                                    "text": "SIYUM",
+                                    "value": "2854"
+                                },
+                                {
+                                    "text": "TAKSING/LIMEKING",
+                                    "value": "2855"
+                                },
+                                {
+                                    "text": "TALIHA",
+                                    "value": "2856"
+                                }
+                            ]
+                        },
+                        "WEST KAMENG": {
+                            "value": "233",
+                            "blockPanchayat": [
+                                {
+                                    "text": "BHALUKPONG",
+                                    "value": "274292"
+                                },
+                                {
+                                    "text": "DIRANG",
+                                    "value": "2858"
+                                },
+                                {
+                                    "text": "JERIGAON",
+                                    "value": "274311"
+                                },
+                                {
+                                    "text": "KALAKTANG-BALEMU",
+                                    "value": "2860"
+                                },
+                                {
+                                    "text": "NAFRA",
+                                    "value": "2861"
+                                },
+                                {
+                                    "text": "RUPA",
+                                    "value": "274281"
+                                },
+                                {
+                                    "text": "SINGCHUNG",
+                                    "value": "2863"
+                                },
+                                {
+                                    "text": "THEMANG",
+                                    "value": "274273"
+                                },
+                                {
+                                    "text": "THRIZINO",
+                                    "value": "2865"
+                                }
+                            ]
+                        },
+                        "WEST SIANG": {
+                            "value": "234",
+                            "blockPanchayat": [
+                                {
+                                    "text": "7A-TIRBIN ",
+                                    "value": "275527"
+                                },
+                                {
+                                    "text": "7-TIRBIN",
+                                    "value": "2883"
+                                },
+                                {
+                                    "text": "ALONG EAST LOWER",
+                                    "value": "2866"
+                                },
+                                {
+                                    "text": "ALONG EAST UPPER",
+                                    "value": "2867"
+                                },
+                                {
+                                    "text": "ALONG WEST PUBU-YOMBU",
+                                    "value": "2868"
+                                },
+                                {
+                                    "text": "ALONG WEST PUSHI",
+                                    "value": "2869"
+                                },
+                                {
+                                    "text": "ALONG WEST UBU",
+                                    "value": "2870"
+                                },
+                                {
+                                    "text": "BASAR",
+                                    "value": "273640"
+                                },
+                                {
+                                    "text": "BASAR A",
+                                    "value": "2871"
+                                },
+                                {
+                                    "text": "Darak",
+                                    "value": "273587"
+                                },
+                                {
+                                    "text": "DARING",
+                                    "value": "2873"
+                                },
+                                {
+                                    "text": "GENSI",
+                                    "value": "2874"
+                                },
+                                {
+                                    "text": "KAMBA",
+                                    "value": "2872"
+                                },
+                                {
+                                    "text": "Kangku",
+                                    "value": "273588"
+                                },
+                                {
+                                    "text": "LIKABALI",
+                                    "value": "2877"
+                                },
+                                {
+                                    "text": "LIROMOBA",
+                                    "value": "2878"
+                                },
+                                {
+                                    "text": "MANIGONG-PIDI",
+                                    "value": "2879"
+                                },
+                                {
+                                    "text": "MECHUKA-TATO",
+                                    "value": "2880"
+                                },
+                                {
+                                    "text": "Yomcha",
+                                    "value": "273586"
+                                }
+                            ]
+                        }
+                    },
+                    "name": "Gram Panchayat",
+                    "value": "G-3-2-0-0"
+                }
+            }
+        }
+    }
+}
