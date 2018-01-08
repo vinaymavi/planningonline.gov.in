@@ -15,6 +15,9 @@ class Base {
     goto() {
         return this.page.goto(this.URL, { waitUntil: "networkidle0" });
     }
+    gotoPage(page) {
+        return page.goto(this.URL, { waitUntil: "networkidle0" });
+    }
     registerListeners() {
         /*Listeners*/
         this.page.on('request', (req) => {

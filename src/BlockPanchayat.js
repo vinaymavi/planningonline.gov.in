@@ -20,6 +20,7 @@ class BlockPanchayat extends Base {
         this.page = page ? page : this.page;
         await this.goto();
         try {
+            // TODO code looks complex need to improve.
             const state = this.json['states'][stateName];
             await Util.changeState.call(this, this.page, state, State.SELECTOR);
             await Util.wait();

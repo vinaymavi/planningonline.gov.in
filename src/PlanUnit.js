@@ -5,6 +5,7 @@
 const { Base } = require("./Base");
 const { State } = require("./State");
 const { Util } = require("./Util");
+const puppeteer = require("puppeteer");
 class PlanUnit extends Base {
     constructor(json, page) {
         super(json, page);
@@ -19,21 +20,30 @@ class PlanUnit extends Base {
      * @param {String} finYear      
      */
     async fetchAndSet() {
-        await this.goto();
         const states = this.json['states'];
         const stateNames = Object.keys(states);
+        let promises = [];
+        const browser =  await puppeteer.launch();
         for (let i = 0; i < stateNames.length; i++) {
-            try {
-                await Util.changeState.call(this, this.page, states[stateNames[i]], State.SELECTOR);
-                await Util.wait();
-                const statePlanUnit = await this.getPlanUnit();
-                states[stateNames[i]]['planUnit']['gramPanchayat'] = statePlanUnit;
-                console.log(statePlanUnit);
-            } catch (error) {
-                console.log(error);
-            }
+            let page = await browser.newPage();
+            promises.push(this.changeStateAndGetUnit(page, states[stateNames[i]], State.SELECTOR));
         }
+        await Promise.all(promises);
         return true;
+    }
+
+    async changeStateAndGetUnit(page, state, selector) {
+        await this.gotoPage(page);
+        try {
+            await Util.changeState.call(this, page, state, selector);
+            await Util.wait();
+            const statePlanUnit = await this.getPlanUnit(page);
+            state['planUnit']['gramPanchayat'] = statePlanUnit;
+            console.log(statePlanUnit);
+            await page.console();
+        } catch (error) {
+            console.log(error);
+        }
     }
 
     updateJsonDocument(stateStr, planUnit) {
@@ -51,17 +61,18 @@ class PlanUnit extends Base {
                     this.statePromiseResolve(planUnitObj);
                     clearTimeout(this.timeoutId);
                 }
-            });    
+            });
         }
     }
 
-    async getPlanUnit() {
-        let planUnits = await Util.getSelectElmOptions(this.page, PlanUnit.SELECTOR);
+    async getPlanUnit(page) {
+        page = page ? page : this.page;
+        let planUnits = await Util.getSelectElmOptions(page, PlanUnit.SELECTOR);
         let planUnitObj = { "districts": {} };
         planUnits.forEach((planUnit) => {
             if (planUnit.value.indexOf("G-3") > -1) {
                 planUnitObj['name'] = planUnit.text;
-                planUnitObj['value'] = planUnit.value;                
+                planUnitObj['value'] = planUnit.value;
             }
         });
         return planUnitObj;
