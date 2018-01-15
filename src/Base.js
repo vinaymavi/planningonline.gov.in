@@ -10,7 +10,9 @@ class Base {
         this.json = json;
         this.page = page;
         this.URL = "http://planningonline.gov.in/ReportData.do?ReportMethod=getAnnualPlanReport";
-        this.registerListeners();
+        if (typeof page !== 'undefined') {
+            this.registerListeners();
+        }
     }
     goto() {
         return this.page.goto(this.URL, { waitUntil: "networkidle0" });
@@ -22,7 +24,7 @@ class Base {
         /*Listeners*/
         this.page.on('request', (req) => {
             //   TODO this should be part of configuration.
-        if (req.url.search(/\.js$|\.css$|\.png$|\.gif$|System|StateDAO/) < 0) {
+            if (req.url.search(/\.js$|\.css$|\.png$|\.gif$|System|StateDAO/) < 0) {
                 console.log("#############-Request-#############");
                 console.log(`Method = ${req.method} , URL = ${req.url}`);
             }
@@ -59,34 +61,34 @@ class Base {
     }
     writeFile(name) {
         // TODO: create file in output dir not in src.
-        const file = __dirname+'/output/' + (name ? name+'.json' : '/jsonDocument.json');
+        const file = __dirname + '/output/' + (name ? name + '.json' : '/jsonDocument.json');
         console.log(file);
-        return new Promise((resolve,reject)=>{
+        return new Promise((resolve, reject) => {
             jsonfile.writeFile(file, this.json, function (err) {
                 if (err) {
                     console.error(err)
                     reject();
-                }else{
+                } else {
                     resolve();
                 }
             });
-        });        
+        });
     }
     writeState(name) {
         // TODO: create file in output dir not in src.
-        const file = __dirname+'/output/' + (name ? name+'.json' : '/jsonDocument.json');
-        let json = {"states":{}};
+        const file = __dirname + '/output/' + (name ? name + '.json' : '/jsonDocument.json');
+        let json = { "states": {} };
         json.states[name] = this.json['states'][name];
-        return new Promise((resolve,reject)=>{
+        return new Promise((resolve, reject) => {
             jsonfile.writeFile(file, json, function (err) {
                 if (err) {
                     console.error(err)
                     reject();
-                }else{
+                } else {
                     resolve();
                 }
             });
-        });        
+        });
     }
 }
 

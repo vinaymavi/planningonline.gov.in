@@ -17,9 +17,9 @@ class BlockPanchayat extends Base {
     }
 
     async fetchAndSet(stateName, page) {
-        this.page = page ? page : this.page;
-        await this.goto();
+        this.page = page ? page : this.page;        
         try {
+            await this.goto();
             // TODO code looks complex need to improve.
             const state = this.json['states'][stateName];
             await Util.changeState.call(this, this.page, state, State.SELECTOR);
@@ -41,7 +41,7 @@ class BlockPanchayat extends Base {
         } catch (e) {
             console.error(chalk.red(e));
         }
-    }
+    }  
     async onResponse(reqUrl) {
         console.log(chalk.yellow("**************BlockPanchayats-On-Response ****************"));
         console.log(reqUrl);

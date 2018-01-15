@@ -5,12 +5,15 @@ const { Util } = require("./src/Util");
 const { PlanUnit } = require("./src/PlanUnit");
 const { District } = require("./src/District");
 const { BlockPanchayat } = require("./src/BlockPanchayat")
+const { VillagePanchayat } = require('./src/VillagePanchayat');
+const haryana  = require('./src/output/HARYANA.json');
+console.log(haryana);
 const chalk = require('chalk')
 let jsonDocument = {};
 const timeStart = new Date();
 console.log(timeStart);
 // TODO need to modify.
-(async () => {
+(async () => {    
     const browser = await puppeteer.launch();
     let page = await browser.newPage();
     const session = new Session(jsonDocument, page);
@@ -31,7 +34,7 @@ console.log(timeStart);
     await district.fetchAndSet();
     district.writeFile("district.json");
     let blockPanchayat;
-    const stateNames = Object.keys(jsonDocument['states']);
+    const stateNames = Object.keys(jsonDocument['states']);    
     for (let i = 0; i < stateNames.length; i++) {
         await page.close();
         page = await browser.newPage();
@@ -41,12 +44,22 @@ console.log(timeStart);
         await blockPanchayat.writeState(stateNames[i]);
         console.log(chalk.green("################ End - " + stateNames[i] + "- End - ################        "))
     }
+    for (let i = 0; i < stateNames.length; i++) {
+        await page.close();
+        page = await browser.newPage();
+        console.log(chalk.green("################ Start - " + stateNames[i] + " Start - ################        "));
+        villagePanchayat = new VillagePanchayat(jsonDocument);
+        await villagePanchayat.fetchAndSet(stateNames[i], page);
+        await villagePanchayat.writeState(stateNames[i]);        
+        console.log(chalk.green("################ End - " + stateNames[i] + "- End - ################        "))
+    }
 
     console.log("File Write Starting");
-    await blockPanchayat.writeFile();
+    await villagePanchayat.writeFile();
     console.log("File Write Successfully.");
     const timeEnd = Date();
     console.log("Start Time" + timeStart);
-    console.log(timeEnd);    
+    console.log(timeEnd);
+    await browser.close();
     process.exit();
 })();

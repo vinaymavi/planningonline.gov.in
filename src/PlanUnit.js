@@ -29,18 +29,19 @@ class PlanUnit extends Base {
             promises.push(this.changeStateAndGetUnit(page, states[stateNames[i]], State.SELECTOR));
         }
         await Promise.all(promises);
+        await browser.close();
         return true;
     }
 
-    async changeStateAndGetUnit(page, state, selector) {
-        await this.gotoPage(page);
+    async changeStateAndGetUnit(page, state, selector) {        
         try {
+            await this.gotoPage(page);
             await Util.changeState.call(this, page, state, selector);
             await Util.wait();
             const statePlanUnit = await this.getPlanUnit(page);
             state['planUnit']['gramPanchayat'] = statePlanUnit;
             console.log(statePlanUnit);
-            await page.console();
+            await page.close();
         } catch (error) {
             console.log(error);
         }
