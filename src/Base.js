@@ -1,6 +1,3 @@
-/**
- * Base class that have comman features.
- */
 const jsonfile = require('jsonfile');
 const { Util } = require("./Util");
 const chalk = require('chalk')
@@ -34,15 +31,6 @@ class Base {
             if (res.url.search(/\.js$|\.css$|\.png$|\.gif$|System|StateDAO/) < 0) {
                 console.log("#############-Response-#############");
                 console.log(`Method = ${res.method},URL = ${res.url},Status=${res.status}`);
-                // const text = await res.text();
-                // await Util.wait();
-                // console.log(text);
-                // if (typeof this.listeners !== "undefined" && this.listeners["onResponse"] instanceof Array) {
-                //     this.listeners["onResponse"].forEach((listener) => {
-                //         // TODO: why we need to pass this specifically.
-                //         listener.call(this, res.url);
-                //     })
-                // }
             }
 
         });
@@ -89,6 +77,9 @@ class Base {
                 }
             });
         });
+    }
+    clickGetReport() {
+        return  this.SUBMIT_BUTTON_SELECTOR && Util.triggerClick.call(this, page, this.SUBMIT_BUTTON_SELECTOR);
     }
 }
 
