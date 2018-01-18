@@ -11,3 +11,5 @@ addons:
 after_script:
 - jest --coverage --maxWorkers=2
 - cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js
+
+dist: trusty
