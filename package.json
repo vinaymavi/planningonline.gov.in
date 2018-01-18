@@ -15,6 +15,7 @@
   },
   "devDependencies": {
     "chalk": "^2.3.0",
+    "coveralls": "^3.0.0",
     "jest": "^22.1.2"
   }
 }
