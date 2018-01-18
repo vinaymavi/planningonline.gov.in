@@ -21,7 +21,7 @@ jobs:
           command: 'sh .circleci/setup_puppeteer.sh'
       - run:
           name: Test Packages
-          command: sh test_entry_point.sh          
+          command: sh test_coverage.sh          
 
       - run: yarn install
 
