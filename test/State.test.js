@@ -1,49 +1,30 @@
-const { State } = require("../src/State");
+const { State } = require("../src/State")
+const puppeteer = require('puppeteer')
+const timeout = 5000
+let page
+let browser;
+beforeAll(async () => {    
+    browser = await puppeteer.launch({})
+    page = await browser.newPage()
+}, timeout)
+
+afterAll(async () => {
+    await page.close()
+})
+
 test("Test update jsonDocument", () => {
+
     const jsonDocumentBefore = {
-        '2015-2016': { value: '2015-2016', states: {} },
-        '2016-2017': { value: '2016-2017', states: {} },
-        '2017-2018': { value: '2017-2018', states: {} }
+        "states":{}    
     };
     const states = [{
-        "text":"UP",value:1
+        "text": "UP", value: 1
     },
     {
-        "text":"UK",value:2
+        "text": "UK", value: 2
     }]
-    const jsonDocumentAfter = {
-        '2015-2016': { value: '2015-2016', states: {
-            "UP":{
-                "value":1,
-                planUnit:{}
-            },
-            "UK":{
-                "value":2,
-                planUnit:{}
-            }
-        } },
-        '2016-2017': { value: '2016-2017', states: {
-            "UP":{
-                "value":1,
-                planUnit:{}
-            },
-            "UK":{
-                "value":2,
-                planUnit:{}
-            }
-        } },
-        '2017-2018': { value: '2017-2018', states: {
-            "UP":{
-                "value":1,
-                planUnit:{}
-            },
-            "UK":{
-                "value":2,
-                planUnit:{}
-            }
-        } }
-    };
-    const state = new State("", jsonDocumentBefore, "", "");
+    const jsonDocumentAfter = {"states": {"UK": {"planUnit": {}, "value": 2}, "UP": {"planUnit": {}, "value": 1}}}
+    const state = new State(page, jsonDocumentBefore, "", "");
     state.updateJsonDocument(states);
     expect(state.json).toEqual(jsonDocumentAfter);
 })

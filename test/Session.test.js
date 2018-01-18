@@ -15,10 +15,7 @@ test("Set Session Array", () => {
     const jsonDocumentBefore = [
         { "text": "2016-2017", "value": "2016-2017" },
         { "text": "2017-2018", "value": "2017-2018" }];
-    const jsonDocumentAfter = {        
-        '2016-2017': { value: '2016-2017', states: {} },
-        '2017-2018': { value: '2017-2018', states: {} }
-    };
+    const jsonDocumentAfter = { "finYears": [{ "text": "2016-2017", "value": "2016-2017" }, { "text": "2017-2018", "value": "2017-2018" }], "states": {} };
     session.updateJsonDocument(jsonDocumentBefore);
     expect(session.json).toEqual(jsonDocumentAfter);
 });
