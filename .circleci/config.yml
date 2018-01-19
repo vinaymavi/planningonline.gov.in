@@ -28,8 +28,13 @@ jobs:
           key: v1-dependencies-{{ checksum "package.json" }}
         
       - run: yarn test
+      - run: jest --coverage --maxWorkers=2
       
-      - run:
-          name: Test Packages
-          command: 'sh .circleci/test_coverage.sh'
-      - run : echo "Test done :)"
+      - store_test_results:
+          path: test-reports
+
+      - store_artifacts:
+          path: test-reports
+
+      - store_artifacts:
+          path: coverage
