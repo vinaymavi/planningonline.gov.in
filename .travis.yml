@@ -10,7 +10,6 @@ addons:
     chrome: stable
 after_script:
 - jest --coverage --maxWorkers=2
-- cat ./coverage/lcov.info
 - codecov
 
 dist: trusty
