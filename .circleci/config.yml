@@ -33,3 +33,11 @@ jobs:
           name: Test Packages
           command: 'sh .circleci/test_coverage.sh'
       - run : echo "Test done :)"
+      - store_test_results:
+          path: test-reports
+
+      - store_artifacts:
+          path: test-reports
+
+      - store_artifacts:
+          path: coverage
