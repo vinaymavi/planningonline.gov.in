@@ -8,9 +8,11 @@ before_script:
     - sleep 3 # give xvfb some time to start
 addons:
     chrome: stable
+install:
+  - npm install -g codecov    
 after_script:
 - jest --coverage --maxWorkers=2
 - cat ./coverage/lcov.info
-- cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js
+- codecov
 
 dist: trusty
