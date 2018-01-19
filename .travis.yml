@@ -8,8 +8,3 @@ before_script:
     - sleep 3 # give xvfb some time to start
 addons:
     chrome: stable
-after_script:
-- jest --coverage --maxWorkers=2
-- codecov
-
-dist: trusty
