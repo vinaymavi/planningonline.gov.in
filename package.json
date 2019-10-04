@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "repository": "https://github.com/vinaymavi/planningonline.gov.in.git",
   "author": "VinayMavi <vinaymavi@gmail.com>",
@@ -11,12 +13,14 @@
   "dependencies": {
     "async": "^2.6.0",
     "jsonfile": "^4.0.0",
-    "puppeteer": "^1.13.0"
+    "puppeteer": "^1.13.0",
+    "snyk": "^1.230.5"
   },
   "devDependencies": {
     "chalk": "^2.3.0",
     "codecov": "^3.0.0",
     "coveralls": "^3.0.0",
     "jest": "^22.1.2"
-  }
+  },
+  "snyk": true
 }
