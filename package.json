@@ -9,7 +9,7 @@
   "author": "VinayMavi <vinaymavi@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "async": "^2.6.0",
+    "async": "^3.2.2",
     "jsonfile": "^4.0.0",
     "puppeteer": "^1.13.0"
   },
